@@ -1,0 +1,12 @@
+
+TYPO3:
+  Imagine:
+    driver: Imagick
+  Flow:
+    persistence:
+      backendOptions:
+        driver: pdo_mysql
+        dbname: cinemaaucollege
+        user: cinemaauclgman
+        password: 92ClTm9hM7
+        host: 127.0.0.1

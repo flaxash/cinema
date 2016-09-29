@@ -1,0 +1,102 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace media=TYPO3\Media\ViewHelpers}
+
+<div class="uk-grid uk-grid-large">
+    <div class="uk-width-medium-1-2">
+	   <a class="teaser" href="#miseenoeuvre">
+        <div class="uk-panel block_menu"><h1 class="teaser"><i class="uk-icon-gears uk-icon-large"></i></h1><h2 class="uk-panel-title">Mise en oeuvre</h2>
+		  <p class="teaser">modalités d’inscription, agenda …</p>
+	  </div>
+        </a>
+    </div>
+    <div class="uk-width-medium-1-2">
+        <a class="teaser" href="#formations">
+        <div class="uk-panel block_menu"><h1 class="teaser"><i class="uk-icon-graduation-cap uk-icon-large"></i></h1><h2 class="uk-panel-title">Formations</h2>
+	  <p class="teaser">Programme des différentes sessions de formation, informations pratiques …</p>
+	  </div>
+        </a>
+    </div>
+</div>
+
+<br/>
+<div class="uk-grid uk-grid-large">
+     <div class="uk-width-medium-1-2">
+        <a class="teaser" href="#bilans">
+        <div class="uk-panel block_menu"><h1 class="teaser"><i class="uk-icon-list uk-icon-large"></i></h1><h2 class="uk-panel-title">Comptes rendus et bilans</h2>
+	  <p class="teaser">Les comptes rendus du comité de pilotage, et les bilans annuels du dispositif</p>
+	  </div>
+        </a>
+    </div>
+    <div class="uk-width-medium-1-2">
+        <blockquote>
+            <h2><i class="uk-icon-quote-left uk-icon-large uk-align-left"></i></h2>
+            <p>Le dispositif <span style="font-style:normal;">Collège au Cinéma 92</span> est la déclinaison départementale d'éducation au cinéma que met en place le ministère de l'Éducation nationale dans le cadre de l'éducation artistique et culturelle. Le dispositif repose sur le partenariat entre l’Éducation nationale, le réseau Canopé, le Conseil départemental et les salles de cinéma des Hauts-de-Seine et le Centre National de la Cinématographie et de l’image animée.
+
+            </p>
+        </blockquote>
+    </div>
+</div>
+<br/>
+<div class="uk-grid uk-grid-large">
+    <div class="uk-width-medium-1-2">
+        <a class="teaser" href="#contacts">
+        <div class="uk-panel block_menu"><h1 class="teaser"><i class="uk-icon-weixin uk-icon-large"></i></h1><h2 class="uk-panel-title">Contacts</h2>
+	  <p class="teaser">Coordinateurs, contacts administratifs, webmestre …</p>
+	  </div>
+        </a>
+    </div>
+    <div class="uk-width-medium-1-2">
+        <a class="teaser" href="http://www.viaeduc.fr">
+            <div class="uk-panel block_menu"><h1 class="teaser"><i class="uk-icon-share-alt uk-icon-large"></i></h1><h2 class="uk-panel-title">Échange de pratiques</h2>
+	  <p class="teaser">Mise en commun de travaux proposés aux élèves à travers la plateforme collaborative Viaéduc. Cet espace vous appartient, n’hésitez pas à partager vos expériences !</p>
+	  </div>
+        </a>
+    </div>
+</div>
+<br/>
+<hr/>
+<div class="uk-grid uk-grid-large" >
+    <div class="uk-width-medium-1-4 logo">
+        <img src="../../../Public/Images/logo-CD92.png" title="CD 92" alt="CD 92" class="logo_dispositifs"/>
+    </div>
+    <div class="uk-width-medium-1-4 logo">
+        <img src="../../../Public/Images/logo-CANOPE.png" title="Canopé 92- Surenses" alt="Canopé 92" class="logo_dispositifs"/>
+    </div>
+    <div class="uk-width-medium-1-4 logo">
+        <img src="../../../Public/Images/logo-DSDEN.png" title="DSDEN92" alt="DSDEN 92" class="logo_dispositifs"/>
+    </div>
+    <div class="uk-width-medium-1-4 logo">
+        <img src="../../../Public/Images/logo-CNC.png" title="CNC" alt="CNC" class="logo_dispositifs"/>
+    </div> 
+</div>
+<hr/>
+<br/>
+<h3 class="dispositif" id="miseenoeuvre"><i class="uk-icon-gears uk-icon-large uk-align-left"></i>Mise en oeuvre</h3>
+<div class="uk-block block_info">    
+<div class="contenu">
+        {neos:contentElement.editable(property: 'miseoeuvre')}
+    </div>
+</div>
+<h3 class="dispositif" id="contacts"><i class="uk-icon-weixin uk-icon-large uk-align-left"></i>Contacts</h3>
+<div class="uk-block block_info">
+<div class="contenu">
+        {neos:contentElement.editable(property: 'contacts')}
+    </div>
+</div>
+<h3 class="dispositif" id="formations"><i class="uk-icon-graduation-cap uk-icon-large uk-align-left"></i>Formations</h3>
+<div class="uk-block block_info">    
+<h4>projections-conférences</h4>
+    <div class="contenu">
+        {neos:contentElement.editable(property: 'projections')}
+    </div>
+    <h4>ateliers</h4>
+    <div class="contenu">
+        {neos:contentElement.editable(property: 'ateliers')}
+    </div>
+</div>
+<h3 class="dispositif" id="bilans"><i class="uk-icon-list uk-icon-large uk-align-left"></i>Comptes rendus et bilans</h3>
+<div class="uk-block block_info">
+    <div class="contenu">
+        {neos:contentElement.editable(property: 'bilans')}
+    </div>
+</div>

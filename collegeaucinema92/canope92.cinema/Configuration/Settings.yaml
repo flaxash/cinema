@@ -1,0 +1,25 @@
+#                                                                        #
+# Settings                                                               #
+#                                                                        #
+# This file contains settings for various parts of the application.      #
+# Just add your own modifications as necessary.                          #
+#                                                                        #
+# Please refer to the default settings file(s) or the manuals for        #
+# possible configuration options.                                        #
+#                                                                        #
+
+TYPO3:
+  nodeTypes:
+      groups:
+        general:
+          position: 'start'
+          label: 'TYPO3.Neos:Main:nodeTypes.groups.general'
+        structure:
+          position: 100
+          label: 'TYPO3.Neos:Main:nodeTypes.groups.structure'
+        plugins:
+          position: 200
+          label: 'TYPO3.Neos:Main:nodeTypes.groups.plugins'
+        cinema:
+          position: 300
+          label: 'cinema'

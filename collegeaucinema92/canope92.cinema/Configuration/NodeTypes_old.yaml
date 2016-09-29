@@ -1,0 +1,293 @@
+# If you need more than just the "main" content area you can uncomment the snippet below. It will add a "sidebar" area
+# to your pages. You can add as many areas as you like, still only those that are rendered in your TypoScript and
+# Template are visible on your page.
+---
+#'TYPO3.Neos.NodeTypes:Page':
+#  childNodes:
+#    'sidebar':
+#      type: 'TYPO3.Neos:ContentCollection'
+
+              
+'canope92.cinema:PageFilm':
+    superTypes:
+        'TYPO3.Neos.NodeTypes:Page': TRUE
+    ui:
+        group: 'general'
+        label: 'Page de Film'
+    properties:
+        'titre':
+            type : string
+            defaultValue: '-'
+            ui:
+                label: 'Texte'
+                reloadIfChanged: TRUE
+                inspector:
+                    group: 'film'
+
+
+'canope92.cinema:Film':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Film du programme'
+    group: 'general'
+    inspector:
+      groups:
+        image:
+          label: 'Image'
+          position: 1
+        'infos':
+          label: 'Infos sur le film'
+          position: 5
+  properties:
+    topimage:
+      type: TYPO3\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Image'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'image'
+    titre:
+      type: string
+      defaultValue: 'Titre'
+      ui:
+        label: 'Titre'
+        inlineEditable: TRUE
+    realisateur:
+      type: string
+      defaultValue: 'Réalisé par ...'
+      ui:
+        label: 'Realisateur'
+        inlineEditable: TRUE
+    genre:
+      type: string
+      defaultValue: 'Genre du film'
+      ui:
+        label: 'Genre'
+        reloadIfChanged: TRUE
+    producteur:
+      type: string
+      defaultValue: 'Produit par ...'
+      ui:
+        label: 'Producteur'
+        reloadIfChanged: TRUE
+    musique:
+      type: string
+      defaultValue: 'Musique de ...'
+      ui:
+        label: 'Musique'
+        reloadIfChanged: TRUE
+    duree:
+      type: string
+      defaultValue: 'Durée du film (h mn)'
+      ui:
+        label: 'Durée'
+        reloadIfChanged: TRUE
+    pays:
+      type: string
+      defaultValue: 'Pays'
+      ui:
+        label: 'Pays'
+        reloadIfChanged: TRUE
+    annee:
+      type: string
+      defaultValue: 'Année'
+      ui:
+        label: 'Année'
+        reloadIfChanged: TRUE
+        inspector:
+              group: 'infos'
+    synopsis:
+      type: string
+      defaultValue: 'synopsis'
+      ui:
+        label: 'synopsis'
+        reloadIfChanged: TRUE
+    aproposfilm:
+      type: string
+      defaultValue: 'A propos du film'
+      ui:
+        label: 'A propos du film'
+        reloadIfChanged: TRUE
+    aproposreal:
+      type: string
+      defaultValue: 'A propos du réalisateur'
+      ui:
+        label: 'A propos du réalisateur'
+        reloadIfChanged: TRUE
+    
+        
+## Un contenu pour les fiches pédagogiques des films
+
+'canope92.cinema:FichePeda': 
+    superTypes:
+        'TYPO3.Neos:Content': TRUE
+    ui:
+        label: 'Fiches pédagogiques'
+        group: 'general'
+        inspector:
+            groups:
+                image:
+                    label: 'Image'
+    childNodes:
+        documents:
+            type: 'TYPO3.Neos:ContentCollection'
+            constraints:
+                nodeTypes:
+                    # only allow images in this ContentCollection
+                    'TYPO3.Neos.NodeTypes:Image': TRUE
+                    'TYPO3\Media\Domain\Model\Asset': TRUE
+                    '*': FALSE               
+            position: 5
+    properties:
+        titre:
+          type: string
+          defaultValue: 'Titre'
+          ui:
+            label: 'Titre'
+            inlineEditable: TRUE
+        auteur:
+          type: string
+          defaultValue: 'Auteur(s)'
+          ui:
+            label: 'Auteur'
+            inlineEditable: TRUE
+            
+            
+'canope92.cinema:DocsPeda': 
+    superTypes:
+        'TYPO3.Neos:Content': TRUE
+    ui:
+        label: 'Documents pédagogiques'
+        group: 'general'
+        inspector:
+            groups:
+                image:
+                    label: 'Image'
+    childNodes:
+        documents:
+            type: 'TYPO3.Neos:ContentCollection'
+            constraints:
+                nodeTypes:
+                    # only allow images in this ContentCollection
+                    'TYPO3.Neos.NodeTypes:Image': TRUE
+                    'TYPO3\Media\Domain\Model\Asset': TRUE
+                    '*': FALSE               
+            position: 5
+    properties:
+        titre:
+          type: string
+          defaultValue: 'titre'
+          ui:
+            label: 'titre'
+            inlineEditable: TRUE
+        auteur:
+          type: string
+          defaultValue: 'auteur(s)'
+          ui:
+            label: 'Auteur'
+            inlineEditable: TRUE
+        description:
+          type: string
+          defaultValue: 'description'
+          ui:
+            label: 'description '
+            inlineEditable: TRUE
+
+'canope92.cinema:Actualite': 
+    superTypes:
+        'TYPO3.Neos:Content': TRUE
+    ui:
+        label: 'Actualité'
+        group: 'general'
+        inspector:
+          groups:
+            'actu':
+              label: i18n
+              position: 50
+    properties:
+        'titre':
+          type: string
+          defaultValue: 'Titre de cette actualité'
+          ui:
+            label: 'titre'
+            reloadIfChanged: TRUE
+            inlineEditable: TRUE
+            inspector:
+              group: 'actu'
+        'date':
+            type: DateTime
+            defaultValue: 'today midnight'
+            ui:
+                label: 'Date'
+                inspector:
+                    group: 'actu'
+                    editorOptions:
+                        format: 'd.m.Y'
+        'auteur':
+          type: string
+          defaultValue: 'Auteur'
+          ui:
+            label: 'auteur'
+            reloadIfChanged: TRUE
+            inlineEditable: TRUE
+            inspector:
+              group: 'actu'
+        'contenu':
+          type: string
+          defaultValue: 'Contenu de cette actualité'
+          ui:
+            label: 'contenu'
+            reloadIfChanged: TRUE
+            inlineEditable: TRUE
+            inspector:
+              group: 'actu'
+        'plus':
+          type: string
+          defaultValue: 'En savoir plus'
+          ui:
+            label: 'lien en savoir plus'
+            reloadIfChanged: TRUE
+            inlineEditable: TRUE
+            inspector:
+              group: 'actu'
+
+##
+# A "Youtube" content element
+#
+'canope92.cinema:YouTube':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: YouTube
+    icon: 'icon-youtube'
+    inspector:
+      groups:
+        'video':
+          label: i18n
+          position: 50
+  properties:
+    'video':
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'id'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'video'
+    'width':
+      type: integer
+      defaultValue: 400
+      ui:
+        label: 'width'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'video'
+    'height':
+      type: integer
+      defaultValue: 300
+      ui:
+        label: 'height'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'video'

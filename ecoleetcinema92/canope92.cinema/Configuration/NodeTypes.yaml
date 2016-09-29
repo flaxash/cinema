@@ -1,0 +1,498 @@
+# If you need more than just the "main" content area you can uncomment the snippet below. It will add a "sidebar" area
+# to your pages. You can add as many areas as you like, still only those that are rendered in your TypoScript and
+# Template are visible on your page.
+---
+#'TYPO3.Neos.NodeTypes:Page':
+#  childNodes:
+#    'sidebar':
+#      type: 'TYPO3.Neos:ContentCollection'
+
+#########################################################################################
+# Un node de type Page pour acceuillir les Films
+#########################################################################################
+
+'canope92.cinema:PageFilm':
+  superTypes:
+    'TYPO3.Neos.NodeTypes:Page': TRUE
+  ui:
+    group: 'general'
+    label: 'Page de Film'
+  properties:
+    'titre':
+      type : string
+      defaultValue: '-'
+      ui:
+        label: 'Texte'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'film'
+
+#########################################################################################
+# Un node de type Content pour afficher les infos et ressources d'un film
+#########################################################################################
+
+'canope92.cinema:Film':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Film du programme'
+    group: 'general'
+    inspector:
+      groups:
+        'images':
+          label: 'Images du film'
+          position: 1
+        'infos':
+          label: 'Infos sur le film'
+          position: 5
+  properties:
+    topimage:
+      type: TYPO3\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Image du haut'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'images'
+    afficheimage:
+      type: TYPO3\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Image affiche'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'images'
+    titre:
+      type: string
+      defaultValue: 'Titre'
+      ui:
+        label: 'Titre'
+        inlineEditable: TRUE
+    realisateur:
+      type: string
+      defaultValue: 'Réalisé par ...'
+      ui:
+        label: 'Realisateur'
+        inlineEditable: TRUE
+    genre:
+      type: string
+      defaultValue: 'Genre du film'
+      ui:
+        label: 'Genre'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    producteur:
+      type: string
+      defaultValue: 'Produit par ...'
+      ui:
+        label: 'Producteur'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    musique:
+      type: string
+      defaultValue: 'Musique de ...'
+      ui:
+        label: 'Musique'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    duree:
+      type: string
+      defaultValue: 'Durée du film (h mn)'
+      ui:
+        label: 'Durée'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    pays:
+      type: string
+      defaultValue: 'Pays'
+      ui:
+        label: 'Pays'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    annee:
+      type: string
+      defaultValue: 'Année'
+      ui:
+        label: 'Année'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    synopsis:
+      type: string
+      defaultValue: 'synopsis'
+      ui:
+        label: 'synopsis'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    aproposfilm:
+      type: string
+      defaultValue: 'A propos du film'
+      ui:
+        label: 'A propos du film'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    aproposreal:
+      type: string
+      defaultValue: 'A propos du réalisateur'
+      ui:
+        label: 'A propos du réalisateur'
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    lien_enfantscinema:
+      type: string
+      defaultValue: 'lien sur le site Enfants de cinéma'
+      ui:
+        label: 'Lien Enfants de Cinéma'
+        inlineEditable: FALSE
+        inspector:
+          group: 'infos'
+    lien_transmettrecinema:
+      type: string
+      defaultValue: 'lien sur le site Transmettre le cinéma'
+      ui:
+        label: 'Lien Transmettre le Cinéma'
+        inlineEditable: FALSE
+        inspector:
+          group: 'infos'
+    cahier_enfantscinema:
+      type: string
+      defaultValue: 'cahier de notes du site Les Enfants de cinéma'
+      ui:
+        label: 'Cahier Les enfants de Cinéma'
+        inlineEditable: FALSE
+        inspector:
+          group: 'infos'
+    
+
+#########################################################################################
+# Un node de type Content pour les infos concernant le Dispositif 
+#########################################################################################
+
+'canope92.cinema:Dispositif':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'le dispositif'
+    group: 'general'
+    inspector:
+      groups:
+        image:
+          label: 'Image'
+          position: 1
+        'infos':
+          label: 'Infos sur le dispositif'
+          position: 5
+  properties:
+    miseoeuvre:
+      type: string
+      defaultValue: 'Descriptif de la mise en oeuvre'
+      ui:
+        label: 'Mise en oeuvre'
+        inlineEditable: TRUE
+    contacts:
+      type: string
+      defaultValue: 'Liste des contacts'
+      ui:
+        label: 'Contacts'
+        inlineEditable: TRUE
+    projections:
+      type: string
+      defaultValue: 'les projections'
+      ui:
+        label: 'Projections'
+        inlineEditable: TRUE
+    ateliers:
+      type: string
+      defaultValue: 'les ateliers'
+      ui:
+        label: 'Ateliers'
+        inlineEditable: TRUE
+    bilans:
+      type: string
+      defaultValue: 'les bilans et compte-rendus'
+      ui:
+        label: 'Bilans'
+        inlineEditable: TRUE
+    textes:
+      type: string
+      defaultValue: 'les textes officiels'
+      ui:
+        label: 'Textes'
+        inlineEditable: TRUE
+
+        
+#########################################################################################
+## Un contenu pour les fiches pédagogiques des films
+#########################################################################################
+
+'canope92.cinema:FichePeda': 
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Fiches pédagogiques'
+    group: 'general'
+    inspector:
+      groups:
+        image:
+          label: 'Image'
+  childNodes:
+    documents:
+      type: 'TYPO3.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          # only allow images in this ContentCollection
+          'TYPO3.Neos.NodeTypes:Image': TRUE
+          'TYPO3\Media\Domain\Model\Asset': TRUE
+          '*': FALSE               
+  properties:
+    titre:
+      type: string
+      defaultValue: 'Titre'
+      ui:
+        label: 'Titre'
+        inlineEditable: TRUE
+    auteur:
+      type: string
+      defaultValue: 'Auteur(s)'
+      ui:
+        label: 'Auteur'
+        inlineEditable: TRUE
+        
+        
+##########################################################################################
+### Un contenu pour les fiches pédagogiques des films (en test)
+##########################################################################################
+
+'canope92.cinema:DocsPeda': 
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Documents pédagogiques'
+    group: 'general'
+    inspector:
+      groups:
+        image:
+          label: 'Image'
+  childNodes:
+    documents:
+      type: 'TYPO3.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          # only allow images in this ContentCollection
+          'TYPO3.Neos.NodeTypes:Image': TRUE
+          'TYPO3\Media\Domain\Model\Asset': TRUE
+          '*': FALSE               
+        position: 5
+  properties:
+    titre:
+      type: string
+      defaultValue: 'titre'
+      ui:
+        label: 'titre'
+        inlineEditable: TRUE
+    auteur:
+      type: string
+      defaultValue: 'auteur(s)'
+      ui:
+        label: 'Auteur'
+        inlineEditable: TRUE
+    description:
+      type: string
+      defaultValue: 'description'
+      ui:
+        label: 'description '
+        inlineEditable: TRUE
+            
+##########################################################################################
+## Un node de type Content pour créer une Actualité
+##########################################################################################
+
+'canope92.cinema:Actualite': 
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Actualité:sans image'
+    group: 'general'
+    inspector:
+      groups:
+        'actu':
+          label: i18n
+          position: 50
+        'image':
+          label: 'Image (325x325)'
+          position: 60
+  properties:
+    'titre':
+      type: string
+      defaultValue: 'Titre de cette actualité'
+      ui:
+        label: 'titre'
+        reloadIfChanged: TRUE
+        inlineEditable: TRUE
+        inspector:
+          group: 'actu'
+    'date':
+      type: DateTime
+      defaultValue: 'today midnight'
+      ui:
+        label: 'Date'
+        inspector:
+          group: 'actu'
+          editorOptions:
+            format: 'd.m.Y'
+    'auteur':
+      type: string
+      defaultValue: 'Auteur'
+      ui:
+        label: 'auteur'
+        reloadIfChanged: TRUE
+        inlineEditable: TRUE
+        inspector:
+          group: 'actu'
+    'contenu':
+      type: string
+      defaultValue: 'Contenu de cette actualité'
+      ui:
+        label: 'contenu'
+        reloadIfChanged: TRUE
+        inlineEditable: TRUE
+        inspector:
+          group: 'actu'
+    'plus':
+      type: string
+      defaultValue: 'En savoir plus'
+      ui:
+        label: 'lien en savoir plus'
+        reloadIfChanged: TRUE
+        inlineEditable: TRUE
+        inspector:
+          group: 'actu'
+    'lienPresent':
+      type: boolean
+      ui:
+        label: 'Présence du bouton > En savoir plus'
+        reloadIfChanged: true
+        inspector:
+          group: 'actu'
+
+##########################################################################################
+## différents types d'actualités pour des mises en forme personnalisées
+##########################################################################################
+
+
+'canope92.cinema:ActualiteImageGauche':   
+  superTypes:
+    'canope92.cinema:Actualite': TRUE
+  ui:
+    label: 'Actualité:image à gauche'
+    group: 'general'
+    inspector:
+      groups:
+        'actu':
+          label: i18n
+          position: 50
+  properties:
+    'actu_image':
+      type: TYPO3\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Image'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'image'
+
+##########################################################################################
+
+'canope92.cinema:ActualiteImageHaut':   
+  superTypes:
+    'canope92.cinema:Actualite': TRUE
+  ui:
+    label: 'Actualité:image en haut'
+    group: 'general'
+    inspector:
+      groups:
+        'actu':
+          label: i18n
+          position: 50
+        'image':
+          label: 'Image (1300x325)'
+          position: 60
+  properties:
+    'actu_image':
+      type: TYPO3\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Image'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'image'
+    
+
+##########################################################################################
+## un contenu pour créer un bouton avec un lien
+##########################################################################################
+'canope92.cinema:Bouton':   
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Bouton lien externe'
+    group: 'general'
+    inspector:
+      groups:
+        'bouton':
+          label: 'éléments du bouton'
+          position: 1
+  properties:
+    'lien':
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'lien externe'
+        reloadIfChanged: FALSE
+        inspector:
+          group: 'bouton'
+    'texte':
+      type: string
+      defaultValue: 'texte du bouton'
+      ui:
+        label: 'texte affiché'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'bouton'        
+  
+
+
+##########################################################################################
+## A "Youtube" content element
+##########################################################################################
+'canope92.cinema:YouTube':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: YouTube
+    icon: 'icon-youtube'
+    inspector:
+      groups:
+        'video':
+          label: i18n
+          position: 50
+  properties:
+    'video':
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'id'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'video'
+    'width':
+      type: integer
+      defaultValue: 400
+      ui:
+        label: 'width'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'video'
+    'height':
+      type: integer
+      defaultValue: 300
+      ui:
+        label: 'height'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'video'

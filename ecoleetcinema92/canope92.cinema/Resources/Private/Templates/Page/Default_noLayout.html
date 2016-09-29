@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace ts=TYPO3\TypoScript\ViewHelpers}
+<html>
+<head>
+    <f:section name="meta">
+                <title>{title}</title>
+    </f:section>
+	<f:section name="stylesheets">
+        <!-- FontAwesome CSS  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+        <!-- UIKit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.1/css/uikit.almost-flat.min.css" />
+        
+        <!-- Magnetic template -->
+        <link rel="stylesheet" type="text/css" href="../../../Public/Styles/reset.css">
+        <link rel="stylesheet" type="text/css" href="../../../Public/Styles/main.css">
+	</f:section>
+	<f:section name="scripts">
+        <!-- JQUERY -->
+        <script type="text/javascript" src="../../../Public/JavaScript/jquery.js"></script> 
+        <!-- UIKit CSS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.1/js/uikit.min.js"></script>
+        <!-- Cinema -->
+        <script type="text/javascript" src="../../../Public/JavaScript/main.js"></script>
+	</f:section>
+</head>
+<body>
+    <header>
+		<div class="logo">
+			<a href="/les-films.html">
+                <img src="../../../Public/Images/logoSite-01.png" title="École et Cinéma" alt="École et Cinéma"/>
+                <img src="../../../Public/Images/logoSite-02.png" title="Hauts-de-Seine" alt="92"/>
+            </a>
+		</div><!-- end logo -->
+
+		<div id="menu_icon"></div>
+		<nav>
+			<ul>
+				<li><a href="/les-films.html">Les films</a></li>
+				<li><a href="/actualites.html">Actualités</a></li>
+				<li><a href="/les-cinemas.html">Les cinémas</a></li>
+				<li><a href="/dispositif.html">Le dispositif</a></li>
+				<li><a href="http://0921824h.esidoc.fr/rubrique/view/id/98">Ressources</a></li>
+			</ul>
+		</nav><!-- end navigation menu -->
+
+		<div class="footer clearfix">
+			<ul class="social clearfix">
+				<li><a href="#" class="fb" data-title="Facebook"></a></li>
+        <li><a href="#" class="google" data-title="Google +"></a></li>
+				<li><a href="#" class="twitter" data-title="Twitter"></a></li>
+				<!--<li><a href="#" class="dribble" data-title="Dribble"></a></li>
+        <li><a href="#" class="behance" data-title="Behance"></a></li>
+				<li><a href="#" class="rss" data-title="RSS"></a></li>-->
+			</ul><!-- end social -->
+
+			<div class="rights">
+				<p>Copyright © 2016 Canopé 92</p>
+				<p>contacter le <a href="mailto:xavier.aubrun@reseau-canope.fr">webmestre</a></p>
+			</div><!-- end rights -->
+		</div ><!-- end footer -->
+	</header><!-- end header -->
+    <section class="main clearfix">
+        
+            <nav class="menu">
+                {parts.menu -> f:format.raw()}
+            </nav>
+            <nav class="breadcrumb">
+                {parts.breadcrumb -> f:format.raw()}
+            </nav>
+            <div class="content">
+                {content.main -> f:format.raw()}
+            </div>
+        
+        <f:section name="bodyScripts">
+            <!-- Put your scripts inclusions for the end of the body here, they will be included in your website by TypoScript -->
+        </f:section>
+    </section>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<f:if condition="{assets}">
+	<f:then>
+        <h3 class="image_gauche">Documents pédagogiques</h3>
+			<f:for each="{assets}" as="asset">
+                <h4 >{asset.title}</h4>
+                <div>{asset.description}</div>
+                <button class="uk-button uk-button-primary uk-button-large"> <a href="{f:uri.resource(resource: asset.resource)}"> > Accès au document</a></button>
+	        </f:for>
+	</f:then>
+	<f:else>
+		<f:security.ifAccess privilegeTarget="TYPO3.Neos:Backend.GeneralAccess">
+			<f:if condition="{node.context.workspace.name} != 'live'">
+				<ul{attributes -> f:format.raw()}>
+					<li>Pas de documents</li>
+				</ul>
+			</f:if>
+		</f:security.ifAccess>
+	</f:else>
+</f:if>
