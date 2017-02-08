@@ -223,6 +223,7 @@
 #########################################################################################
 
 'canope92.cinema:FichePeda': 
+  abstract: TRUE
   superTypes:
     'TYPO3.Neos:Content': TRUE
   ui:
@@ -260,7 +261,8 @@
 ### Un contenu pour les fiches pédagogiques des films (en test)
 ##########################################################################################
 
-'canope92.cinema:DocsPeda': 
+'canope92.cinema:DocsPeda':
+  abstract: TRUE
   superTypes:
     'TYPO3.Neos:Content': TRUE
   ui:
@@ -461,6 +463,7 @@
 ## A "Youtube" content element
 ##########################################################################################
 'canope92.cinema:YouTube':
+  abstract: TRUE
   superTypes:
     'TYPO3.Neos:Content': TRUE
   ui:
@@ -496,3 +499,45 @@
         reloadIfChanged: TRUE
         inspector:
           group: 'video'
+          
+          
+##########################################################################################
+## Désactiver les éléments inutiles
+##########################################################################################
+'TYPO3.Neos.NodeTypes:Headline':
+  abstract: TRUE
+  
+  
+'TYPO3.Neos.NodeTypes:Image':
+  abstract: TRUE
+  
+'TYPO3.Neos.NodeTypes:TextWithImage':
+  abstract: TRUE
+  
+  
+'TYPO3.Neos.NodeTypes:Menu':
+  abstract: TRUE
+  
+'TYPO3.Neos.NodeTypes:Column':
+  abstract: TRUE 
+  
+'TYPO3.Neos.NodeTypes:TwoColumn':
+  abstract: TRUE
+  
+'TYPO3.Neos.NodeTypes:ThreeColumn':
+  abstract: TRUE
+
+'TYPO3.Neos.NodeTypes:FourColumn':
+  abstract: TRUE
+  
+'TYPO3.Neos.NodeTypes:Form':
+  abstract: TRUE
+  
+'TYPO3.Neos.NodeTypes:AssetList':
+  abstract: TRUE
+  
+'TYPO3.Neos.NodeTypes:ContentReferences':
+  abstract: TRUE
+
+  
+  

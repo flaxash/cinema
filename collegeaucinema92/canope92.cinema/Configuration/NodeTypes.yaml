@@ -66,6 +66,12 @@
       ui:
         label: 'Titre'
         inlineEditable: TRUE
+    theme:
+      type: string
+      defaultValue: 'thématique de la sélection'
+      ui:
+        label: 'Thématique'
+        inlineEditable: TRUE
     realisateur:
       type: string
       defaultValue: 'Réalisé par ...'
@@ -512,8 +518,6 @@
 'TYPO3.Neos.NodeTypes:Headline':
   abstract: TRUE
   
-'TYPO3.Neos.NodeTypes:Text':
-  abstract: TRUE
   
 'TYPO3.Neos.NodeTypes:Image':
   abstract: TRUE

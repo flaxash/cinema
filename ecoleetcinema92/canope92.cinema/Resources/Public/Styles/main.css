@@ -172,14 +172,14 @@ h5, h6          { font-weight: bolder }
 
 
 
-    header ul.social li a.fb,
-    header ul.social li a.fb:hover{
+    header ul.social li a.ml,
+    header ul.social li a.ml:hover{
         background-position: 0 0;
     }
 
 
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
+    header ul.social li a.viaeduc,
+    header ul.social li a.viaeduc:hover{
         background-position: -31px 0;
     }
 
@@ -211,10 +211,11 @@ h5, h6          { font-weight: bolder }
         line-height: 18px;
     }
 
-    header .rights a{
+    header .rights a, 
+    header .rights a:hover{
         font-family: "raleway-bold", arial;
-        font-weight: bold;
         text-decoration: none;
+        color: #454545;
     }
     #menu_icon,
     .close_menu{
@@ -427,6 +428,12 @@ img {
     margin-bottom: 10px;
 }
 
+.content a{
+    color: white;
+    text-decoration: none!important;
+    background-color: rgb(0,168,230);
+    
+}
 
 .content h3,
 .content h4,
@@ -452,7 +459,7 @@ img {
     color: #4b4848;
     font-family: "raleway-semibold", arial;
     font-weight: bold;
-    line-height: 28px;
+    line-height: normal;
     margin-bottom: 10px;
     text-align: center;
 }

@@ -5,6 +5,7 @@ prototype(canope92.cinema:Film) < prototype(TYPO3.Neos:Content) {
         nextFilm = ${q(documentNode).next('[instanceof canope92.cinema:PageFilm]').get(0)}
         
         titre = ${q(node).property('titre')}
+        theme = ${q(node).property('theme')}
         realisateur = ${q(node).property('realisateur')}
         genre = ${q(node).property('genre')}
         topimage = ${q(node).property('topimage')}
