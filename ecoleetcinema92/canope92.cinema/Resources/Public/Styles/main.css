@@ -117,7 +117,7 @@ h5, h6          { font-weight: bolder }
     header nav ul{
         display: block;
         overflow: hidden;
-        margin-top: 100px;
+        margin-top: 80px;
         list-style: none;
     }
 
@@ -431,7 +431,7 @@ img {
 .content a{
     color: white;
     text-decoration: none!important;
-    background-color: rgb(0,168,230);
+    background-color: rgb(0,168,230)!important;
     
 }
 
@@ -607,7 +607,7 @@ div.contenu {
 }
 .contenu a {
     color: white;
-    background-color: rgb(0,168,230);
+    background-color: rgb(0,168,230)!important;
     text-decoration: none;
 }
 .contenu p {

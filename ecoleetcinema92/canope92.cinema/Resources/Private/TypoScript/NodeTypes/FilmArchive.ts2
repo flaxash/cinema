@@ -1,0 +1,23 @@
+prototype(canope92.cinema:FilmArchive) < prototype(TYPO3.Neos:Content) {
+        templatePath = 'resource://canope92.cinema/Private/Templates/TypoScriptObjects/FilmArchive.html'
+        // Get the previous and the next Film by traversing to the node which preceds the current one.
+        previousFilm = ${q(documentNode).prev('[instanceof canope92.cinema:PageFilm]').get(0)}
+        nextFilm = ${q(documentNode).next('[instanceof canope92.cinema:PageFilm]').get(0)}
+        
+        titre = ${q(node).property('titre')}
+        realisateur = ${q(node).property('realisateur')}
+        genre = ${q(node).property('genre')}
+        topimage = ${q(node).property('topimage')}
+        afficheimage = ${q(node).property('afficheimage')}
+        producteur = ${q(node).property('producteur')}
+        musique = ${q(node).property('musique')}
+        duree = ${q(node).property('duree')}
+        pays = ${q(node).property('pays')}
+        annee = ${q(node).property('annee')}
+        synopsis = ${q(node).property('synopsis')}
+        aproposfilm = ${q(node).property('aproposfilm')}
+        aproposreal = ${q(node).property('aproposreal')}
+        lien_enfantscinema = ${q(node).property('lien_enfantscinema')}
+        lien_transmettrecinema = ${q(node).property('lien_transmettrecinema')}
+        cahier_enfantscinema = ${q(node).property('cahier_enfantscinema')}
+}
