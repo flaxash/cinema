@@ -1,0 +1,9 @@
+prototype(Canope92.Cinema:Actualite) < prototype(Neos.NodeTypes:Text) {  
+
+        titre = ${q(node).property('titre')}
+        plus = ${q(node).property('plus')}
+        lienPresent = ${q(node).property('lienPresent')}
+        
+        text = ${q(node).property('text')}
+        
+}

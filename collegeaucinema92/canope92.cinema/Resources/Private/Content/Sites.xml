@@ -1,41 +1,1857 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
- <site name="cinema.dev" state="1" siteResourcesPackageKey="canope92.cinema" siteNodeName="cinema">
+ <site name="collegeaucinema92.fr" state="1" siteResourcesPackageKey="Canope92.Cinema" siteNodeName="canope92-cinema">
   <nodes formatVersion="2.0">
-   <node nodeName="cinema">
-    <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+   <node identifier="523019a7-d2fb-47b0-9e71-12abe3f676d6" nodeName="canope92-cinema">
+    <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:Shortcut" version="4" removed="" hidden="" hiddenInIndex="">
      <dimensions>
-     
       <language>en_US</language>
-     
      </dimensions>
      <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2018-06-21T10:55:08+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T08:38:50+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T08:38:50+00:00</lastPublicationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
+      <targetMode __type="string">parentNode</targetMode>
      </properties>
     </variant>
-    <node nodeName="main">
-     <variant workspace="live" nodeType="TYPO3.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:Shortcut" version="5" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>fr</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2018-07-12T12:53:22+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T08:01:19+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T08:01:19+00:00</lastPublicationDateTime>
+     <properties>
+      <title __type="string">Home</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+      <targetMode __type="string">selectedTarget</targetMode>
+      <target __type="string">node://cc3722f7-794c-44d8-99f0-8eb7e4af763d</target>
+     </properties>
+    </variant>
+    <node identifier="73b912f2-17da-4fe4-b385-1478cdcc1e3e" nodeName="node-15eitlsy6uemq">
+     <variant sortingIndex="538" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="5" removed="" hidden="" hiddenInIndex="1">
       <dimensions>
-      
-       <language>en_US</language>
-      
+       <language>fr</language>
       </dimensions>
       <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:34:11+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:34+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:33+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">billy-elliot</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Billy Elliot</title>
+      </properties>
      </variant>
-     <node nodeName="text1">
-      <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+     <node identifier="6c6b7303-1acf-3648-0665-3173de6aaec0" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions>
-       
-        <language>en_US</language>
-       
+        <language>fr</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <properties>
-        <text __type="string">&lt;p&gt;This is the homepage&lt;/p&gt;</text>
-       </properties>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:34:11+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:34+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:33+00:00</lastPublicationDateTime>
+       <properties/>
       </variant>
+      <node identifier="b300f1ad-a621-440b-b3af-593eb33c79de" nodeName="node-uibwiyc31ajb5">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:Film" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:39:20+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T14:38:42+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T14:38:41+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre</titre>
+         <theme __type="string">thématique de la sélection</theme>
+         <realisateur __type="string">Réalisé par ...</realisateur>
+         <genre __type="string">Genre du film</genre>
+         <producteur __type="string">Produit par ...</producteur>
+         <musique __type="string">Musique de ...</musique>
+         <duree __type="string">Durée du film (h mn)</duree>
+         <pays __type="string">Pays</pays>
+         <annee __type="string">Année</annee>
+         <synopsis __type="string">synopsis</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">A propos du réalisateur</aproposreal>
+         <lien_transmettrecinema __type="string">lien sur le site Transmettre le cinéma</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="020d314c-566e-4125-8314-b4fdb1b42e3c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;020d314c-566e-4125-8314-b4fdb1b42e3c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Billy Elliot - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;billy-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;0fb8e9d741b6599dec9a4e5b7b89d1db29024dc2&quot;,&quot;hash&quot;:&quot;0fb8e9d741b6599dec9a4e5b7b89d1db29024dc2&quot;,&quot;__identity&quot;:&quot;580a0b21-eb8c-484c-83f6-bfa15b0bb6cf&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="5eb20cc8-8f7f-495f-8d77-fa0414418f06" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;5eb20cc8-8f7f-495f-8d77-fa0414418f06&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Billy Elliot - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;billy-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a13810a6261b0afecd5e98a76ac91dee325bf990&quot;,&quot;hash&quot;:&quot;a13810a6261b0afecd5e98a76ac91dee325bf990&quot;,&quot;__identity&quot;:&quot;e054da51-a88b-478a-9531-8f84f62eb09c&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="bcb8c8b8-7e8d-4e45-adb0-36ca1e0535b3" nodeName="node-18tnf3djaxt1d">
+     <variant sortingIndex="625" workspace="live" nodeType="Canope92.Cinema:Page" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-22T09:41:38+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T09:42:02+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T09:42:02+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">actualites</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Actualités</title>
+      </properties>
+     </variant>
+     <node identifier="9c71765d-dc32-c5b4-3e60-56e98b02c24b" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-22T09:41:38+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T09:42:02+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T09:42:02+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="8b3c70e6-cc23-43d0-b06a-f5c89a8671b6" nodeName="node-1z1h47csmsyfu">
+       <variant sortingIndex="200" workspace="live" nodeType="Canope92.Cinema:ActualiteImageHaut" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-23T14:07:56+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-23T14:08:03+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-23T14:08:03+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre de cette actualité</titre>
+         <contenu __type="string">Contenu de cette actualité</contenu>
+         <plus __type="string">En savoir plus</plus>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="1fe0e966-e4da-4e4e-8a5a-4fe96f4d354b" nodeName="node-6aitcn8vv241t">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:ActualiteImageGauche" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-23T14:07:16+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-23T14:08:03+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-23T14:08:03+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre de cette actualité</titre>
+         <contenu __type="string">Contenu de cette actualité</contenu>
+         <plus __type="string">En savoir plus</plus>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="adfe5c6d-3eeb-415d-8e33-91c81b490acf" nodeName="node-x85d4uf4870is">
+       <variant sortingIndex="150" workspace="live" nodeType="Canope92.Cinema:Actualite" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-23T14:07:47+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-23T14:08:03+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-23T14:08:03+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre de cette actualité</titre>
+         <contenu __type="string">Contenu de cette actualité</contenu>
+         <plus __type="string">En savoir plus</plus>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="cc3722f7-794c-44d8-99f0-8eb7e4af763d" nodeName="node-6d9fb4k12on88">
+     <variant sortingIndex="500" workspace="live" nodeType="Canope92.Cinema:Page" version="3" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T08:00:36+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T08:03:52+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T08:03:51+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">les-films</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Les films</title>
+      </properties>
+     </variant>
+     <node identifier="68fd108c-1f5e-e6c5-f84b-15fab3ec67d7" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T08:00:36+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T08:03:52+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T08:03:51+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="b39be5ba-4303-4e36-b150-f1ce2863a14d" nodeName="node-aag9c1ou486fh">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Html" version="9" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T08:04:15+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T14:36:12+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T14:36:11+00:00</lastPublicationDateTime>
+        <properties>
+         <source __type="string">&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;phantom-boy.html&quot;&gt;
+	  &lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/phantom-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Phantom Boy&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;billy-elliot.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/billy-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Billy Elliot&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;le-voleur-de-bicyclette.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/voleur-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Le voleur de bicyclette&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;hors-jeu.html&quot;&gt;
+		&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/hors-jeu-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+	  	&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Hors-Jeu&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;bienvenue-a-gattaca.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/gattaca-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Bienvenue à Gattaca&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;quai-des-orfevres.html&quot;&gt; 
+	  &lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/quai-orfevres-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Quai des orfèvres&lt;/h1&gt;
+		  	&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;</source>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="59aaea9b-879d-4ee8-9724-47ced5b891c5" nodeName="node-91vm1jh85cjx7">
+     <variant sortingIndex="525" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="5" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:33:36+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:24:39+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:24:39+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">phantom-boy</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Phantom Boy</title>
+      </properties>
+     </variant>
+     <node identifier="28a1dcf5-ec55-0134-c08c-8be3ad03571d" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:33:36+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:24:39+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:24:39+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="f709cf5c-1c45-4c57-baea-1ae387d65809" nodeName="node-7y6r4w7j3atdr">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:Film" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:39:04+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T14:33:44+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T14:33:44+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre</titre>
+         <theme __type="string">thématique de la sélection</theme>
+         <realisateur __type="string">Réalisé par ...</realisateur>
+         <genre __type="string">Genre du film</genre>
+         <producteur __type="string">Produit par ...</producteur>
+         <musique __type="string">Musique de ...</musique>
+         <duree __type="string">Durée du film (h mn)</duree>
+         <pays __type="string">Pays</pays>
+         <annee __type="string">Année</annee>
+         <synopsis __type="string">synopsis</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">A propos du réalisateur</aproposreal>
+         <lien_transmettrecinema __type="string">lien sur le site Transmettre le cinéma</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="7e936d2a-6a05-4eb1-b067-4874e5115888" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;7e936d2a-6a05-4eb1-b067-4874e5115888&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Phantom Boy - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;phantom-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;62a2838bea34ad1bb042e211d54d48faf5ee188d&quot;,&quot;hash&quot;:&quot;62a2838bea34ad1bb042e211d54d48faf5ee188d&quot;,&quot;__identity&quot;:&quot;0c47de14-a4a9-484e-b7a8-21468106ebc3&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="9f2be3fd-db6f-4be4-8bd7-7da1bbb1f2b2" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;9f2be3fd-db6f-4be4-8bd7-7da1bbb1f2b2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Phantom Boy - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;phantom-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;527af415e1a053ea26ca29a24d251c1378b5a95a&quot;,&quot;hash&quot;:&quot;527af415e1a053ea26ca29a24d251c1378b5a95a&quot;,&quot;__identity&quot;:&quot;cd806121-209e-4ded-9197-eccc4f8dfe05&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="7860575d-db4e-4021-b336-d4aef18012d5" nodeName="node-9c9csxzc7ikev">
+     <variant sortingIndex="700" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:41:29+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:41:42+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:41:41+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">chantons-sous-la-pluie</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Chantons sous la pluie</title>
+      </properties>
+     </variant>
+     <node identifier="df3c7251-7a5c-1993-f10b-3140fa42e325" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:41:29+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:41:42+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:41:41+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="17e610fa-db0a-4cf1-9170-26638b27b1ec" nodeName="node-22623mgimc2js">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:41:49+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-11T14:17:26+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-11T14:17:26+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">CHANTONS SOUS LA PLUIE</titre>
+         <theme __type="string">Le corps en jeu</theme>
+         <realisateur __type="string">Réalisé par Stanley Donen &amp;amp; Gene Kelly</realisateur>
+         <genre __type="string">Comédie musicale</genre>
+         <producteur __type="string">Produit par&amp;nbsp;MGM (Arthur Freed)</producteur>
+         <musique __type="string">Musique de Nacio Herb Brown</musique>
+         <duree __type="string">1 h 40</duree>
+         <pays __type="string">USA</pays>
+         <annee __type="string">1952</annee>
+         <synopsis __type="string">&lt;p&gt;À Hollywood, dans les années 20, Don Lockwood est un acteur célèbre. Il forme un couple de cinéma très populaire avec la célèbre Lina Lamont. Lors d’une soirée, Don Lockwood fait la connaissance de Kathy, une danseuse, dont il tombe amoureux, ce qui rend jalouse Lina. Le cinéma qui était muet jusqu’alors devient sonore, ce qui bouleverse le monde du cinéma.&amp;nbsp;&lt;/p&gt;
+</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Stanley Donen sur le site « Transmettre le cinéma » :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/donen-stanley/#filmographie&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Filmographie de Gene Kelly sur le site « Transmettre le cinéma » :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/kelly-gene/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/chantons-sous-la-pluie/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">&lt;p&gt;- La fiche du film sur le site &quot;Nanouk&quot; :&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;http://nanouk-ec.com/films/chantons-sous-la-pluie&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;- Cahier de notes :&amp;nbsp;DESBARATS, Carole.&amp;nbsp;Cahier de notes sur... “Chantons sous la pluie”. Les enfants de cinéma, 2003. À&amp;nbsp;consulter sur le site &quot;Nanouk&quot;, sur inscription à l’adresse&amp;nbsp;http://nanouk-ec.com/&lt;/p&gt;
+</autres_ressources>
+         <topimage __type="object" __identifier="9bacd367-a415-4a0a-bfc6-d2a995cbc2eb" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;9bacd367-a415-4a0a-bfc6-d2a995cbc2eb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Chantons sous la pluie - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;chantons-bandeau.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;816b442fe3555d68d79fde17e5c45a4f4faa9e0a&quot;,&quot;hash&quot;:&quot;816b442fe3555d68d79fde17e5c45a4f4faa9e0a&quot;,&quot;__identity&quot;:&quot;12a39ff4-5b01-4556-91fa-4efee79a6eae&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="66fc04c9-686f-47fc-a78c-af535652b02c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;66fc04c9-686f-47fc-a78c-af535652b02c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Chantons sous la pluie - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;chantons-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;e94b261d7e404fc307872fc624f2712e6a0f77dd&quot;,&quot;hash&quot;:&quot;e94b261d7e404fc307872fc624f2712e6a0f77dd&quot;,&quot;__identity&quot;:&quot;94d08034-fe20-4bb5-b3de-1718bc919d4d&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="9874e3c7-2433-4fe5-9d9c-f396a4940b23" nodeName="node-b6ogh4ef1n2s5">
+     <variant sortingIndex="647" workspace="live" nodeType="Canope92.Cinema:Page" version="5" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-22T11:20:54+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T11:22:27+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T11:22:27+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">mentions</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Mentions légales</title>
+      </properties>
+     </variant>
+     <node identifier="bba611a5-0ef0-bc49-6bbc-cdf9a8736094" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-22T11:20:54+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T11:22:27+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T11:22:27+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="21dd84ee-5d4e-4a09-a097-f6791d30ad00" nodeName="node-wf6ffcrznciqo">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Html" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-22T11:21:18+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T11:33:36+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T11:33:36+00:00</lastPublicationDateTime>
+        <properties>
+         <source __type="string">&lt;figure class=&quot;typo3-neos-alignment-center&quot;&gt;
+	&lt;img title=&quot;logo simplifié Réseau-Canopé&quot; alt=&quot;logo&quot; src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/logo_simplifie_canope.png&quot; width=&quot;454&quot; height=&quot;185&quot; /&gt;
+&lt;/figure&gt;
+&lt;div class=&quot; typo3-neos-nodetypes-headline&quot;&gt;
+	&lt;div&gt;&lt;h1 style=&quot;text-align: center;&quot;&gt;MENTIONS LÉGALES&lt;/h1&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; typo3-neos-nodetypes-text&quot;&gt;
+	&lt;div&gt;&lt;p&gt;site internet édité par l'Atelier Canopé 92 - Suresnes, déclinaison départementale du réseau unique Réseau-Canopé : &lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; typo3-neos-nodetypes-text&quot;&gt;
+	&lt;div&gt;&lt;p&gt;&lt;strong&gt;Dénomination&lt;/strong&gt; : Réseau Canopé&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Siège social&lt;/strong&gt; :&lt;/p&gt;&lt;p&gt;Téléport 1 @4, 1 avenue du Futuroscope, CS 80158, 86961 Futuroscope CEDEX&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tél. (standard)&lt;/strong&gt; : 05 49 49 78 00&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Télécopie&lt;/strong&gt; : 05 49 49 78 06&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Statut juridique&lt;/strong&gt; :&lt;/p&gt;&lt;p&gt;Établissement public à caractère administratif sous tutelle du ministère de l'Éducation nationale&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Directeur de la publication&lt;/strong&gt; :&lt;/p&gt;&lt;p&gt;Alain Sedbon, directeur de l'Atelier Canopé 92&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Conception fonctionnelle et intégration HTML&lt;/strong&gt; : Atelier Canopé 92&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Réalisation et développement&lt;/strong&gt; : Atelier Canopé 92&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Hébergement&lt;/strong&gt; : Canopé 94&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; typo3-neos-nodetypes-text&quot;&gt;
+	&lt;div&gt;&lt;p&gt;&lt;strong&gt;Contact&lt;/strong&gt; : contact.atelier92@reseau-canope.fr&lt;/p&gt;&lt;p&gt;Atelier Canopé 92 : 01 40 99 55 77&lt;/p&gt;&lt;/div&gt;</source>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="e89364c0-b421-4dca-83fd-4140823cfeb1" nodeName="node-bog7awkr71x0z">
+     <variant sortingIndex="800" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:42:50+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:44+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:43+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">le-gamin-au-velo</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Le gamin au vélo</title>
+      </properties>
+     </variant>
+     <node identifier="267c325e-9c21-cd51-5f81-62e9e03e2572" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:42:50+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:44+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:43+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="4f2b96f0-beff-4717-9dd7-2b6719cd9993" nodeName="node-fab515wraxdku">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:43+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-11T14:19:26+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-11T14:19:26+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">LE GAMIN AU VÉLO</titre>
+         <theme __type="string">Le corps en jeuthématique de la sélection</theme>
+         <realisateur __type="string">&lt;br /&gt;
+Réalisé par&amp;nbsp;Jean-Pierre et Luc Dardenne</realisateur>
+         <genre __type="string">Comédie dramatiqueGenre du film</genre>
+         <producteur __type="string">Produit par&amp;nbsp;Luc et Jean-Pierre Dardenne, Denis Freyd</producteur>
+         <musique __type="string">Musique de Beethoven</musique>
+         <duree __type="string">1 h 27</duree>
+         <pays __type="string">Belgique</pays>
+         <annee __type="string">&lt;br /&gt;
+2010</annee>
+         <synopsis __type="string">&lt;p&gt;Cyril, bientôt 12 ans, n'a qu'une idée en tête : retrouver son père qui l'a placé provisoirement dans un foyer pour enfants. Il rencontre par hasard Samantha, qui tient un salon de coiffure et qui accepte de l'accueillir chez elle pendant les week-ends. Mais Cyril ne voit pas encore l'amour que Samantha lui porte, cet amour dont il a pourtant besoin pour apaiser sa colère.&lt;/p&gt;
+</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Jean-Pierre et Luc Dardenne sur le site « Transmettre le cinéma » :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/dardenne-jean-pierre-et-luc/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/gamin-au-velo-le/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string"></autres_ressources>
+         <topimage __type="object" __identifier="314733e0-d57c-4bf8-8c63-42c3b00ad19e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;314733e0-d57c-4bf8-8c63-42c3b00ad19e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Le gamin au v\u00e9lo - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;gamin-bandeau.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;434ef603ba7c519e1c456e9b060b49657fb41f1a&quot;,&quot;hash&quot;:&quot;434ef603ba7c519e1c456e9b060b49657fb41f1a&quot;,&quot;__identity&quot;:&quot;7502fed8-3945-4e74-a72d-2424b9f108db&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="360f441e-6846-4077-af60-0a1e938daf43" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;360f441e-6846-4077-af60-0a1e938daf43&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Le gamin au v\u00e9lo - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;gamin-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;deba5f93a3a123a71a0fa825fa76ed800592fc19&quot;,&quot;hash&quot;:&quot;deba5f93a3a123a71a0fa825fa76ed800592fc19&quot;,&quot;__identity&quot;:&quot;8501f1fb-cb09-4cf5-9a03-0e89edfbe65a&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="24d81294-c8a9-4bb5-93f1-0a89a2c4e05a" nodeName="node-da7u3pkf3m8lm">
+     <variant sortingIndex="1250" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:29+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:48+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:48+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">enfance-clandestine</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Enfance clandestine</title>
+      </properties>
+     </variant>
+     <node identifier="831dbcd3-2433-d331-ed90-e867e00222e9" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:30+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:48+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:48+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="327508cf-a033-4286-986d-d9fafb3e1333" nodeName="node-kg5zuwnwydoh8">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:36+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-12T08:05:51+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-12T08:05:51+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">ENFANCE CLANDESTINE</titre>
+         <theme __type="string">Visible / invisiblethématique de la sélection</theme>
+         <realisateur __type="string">Un film de Benjamin Àvila</realisateur>
+         <genre __type="string">Drame</genre>
+         <producteur __type="string">Produit par&amp;nbsp;Luis Puenzo</producteur>
+         <musique __type="string">Musique de Marta Roca Alonso et Pedro Onetto</musique>
+         <duree __type="string">1 h 50 mn</duree>
+         <pays __type="string">Argentine, Brésil, Espagne</pays>
+         <annee __type="string">2013</annee>
+         <synopsis __type="string">&lt;br /&gt;
+Argentine, 1979. Juan, 12 ans, et sa famille reviennent à Buenos Aires sous une fausse identité après des années d’exil. Les parents de Juan et son oncle Beto sont membres de l’organisation Montoneros, en lutte contre la junte militaire au pouvoir qui les traque sans relâche. Pour tous ses amis à l’école et pour Maria dont il est amoureux, Juan se prénomme Ernesto. Il ne doit pas l’oublier, le moindre écart peut être fatal à toute sa famille.</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Benjamín Ávila sur le site transmettre le cinéma :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/10482/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/enfance-clandestine/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string"></autres_ressources>
+         <topimage __type="object" __identifier="92740a0b-52ad-4a4b-9d7b-0263b5a04f6d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;92740a0b-52ad-4a4b-9d7b-0263b5a04f6d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Enfance clandestine - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;enfance-clandestine-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;03b9329cc170d57c032de44d9ecd2b185344b05c&quot;,&quot;hash&quot;:&quot;03b9329cc170d57c032de44d9ecd2b185344b05c&quot;,&quot;__identity&quot;:&quot;1747ec38-b313-4abc-b6d7-17d3ceb07967&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="4e5007e0-9b17-472e-bb0a-80ae4a33b8c2" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;4e5007e0-9b17-472e-bb0a-80ae4a33b8c2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Enfance clandestine - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;enfance-clandestine-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;3559d676cc03a30a74cfaefa35489ae2a1d5c76b&quot;,&quot;hash&quot;:&quot;3559d676cc03a30a74cfaefa35489ae2a1d5c76b&quot;,&quot;__identity&quot;:&quot;0f3b3cf2-2064-49a8-b8ba-26b795457672&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="c31e2bdb-ee86-4f15-96eb-f37c9d0af1b0" nodeName="node-e4sfk9gvgy8o6">
+     <variant sortingIndex="600" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="6" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:37:45+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:25:50+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:25:50+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">quai-des-orfevres</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Quai des orfèvres</title>
+      </properties>
+     </variant>
+     <node identifier="9b563232-a247-2b37-73f0-44d43225e311" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:37:46+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:25:50+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:25:50+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="a500e4d9-8ab5-4bf3-9fcf-7b38d18f3a12" nodeName="node-acwm7cx0nsqz5">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:Film" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:41:07+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T14:50:31+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T14:50:30+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre</titre>
+         <theme __type="string">thématique de la sélection</theme>
+         <realisateur __type="string">Réalisé par ...</realisateur>
+         <genre __type="string">Genre du film</genre>
+         <producteur __type="string">Produit par ...</producteur>
+         <musique __type="string">Musique de ...</musique>
+         <duree __type="string">Durée du film (h mn)</duree>
+         <pays __type="string">Pays</pays>
+         <annee __type="string">Année</annee>
+         <synopsis __type="string">synopsis</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">A propos du réalisateur</aproposreal>
+         <lien_transmettrecinema __type="string">lien sur le site Transmettre le cinéma</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="a4d7f734-35fe-450a-b508-b36ad657b0f4" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;a4d7f734-35fe-450a-b508-b36ad657b0f4&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Quai des orf\u00e8vres - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;quai-orfevres-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;54485bf1f7847869a68dae0d7ef76dbd2683fa0b&quot;,&quot;hash&quot;:&quot;54485bf1f7847869a68dae0d7ef76dbd2683fa0b&quot;,&quot;__identity&quot;:&quot;b2268eb0-40d6-4a25-b916-e52e12cb10f8&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="61cf5502-13b8-4253-9767-927b6c769faa" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;61cf5502-13b8-4253-9767-927b6c769faa&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Quai des orf\u00e8vres - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;quai-orfevres-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b534c03b967a983e5d4bcf336f7433fafad7714d&quot;,&quot;hash&quot;:&quot;b534c03b967a983e5d4bcf336f7433fafad7714d&quot;,&quot;__identity&quot;:&quot;68096439-1470-4eed-8b2a-97082092acc9&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="51b25425-aacb-44dd-8033-83b172aee17e" nodeName="node-eipj4j31tcd13">
+     <variant sortingIndex="1000" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:48:49+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:17+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:17+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">couleur-de-peau-miel</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Couleur de peau : Miel</title>
+      </properties>
+     </variant>
+     <node identifier="19064bdd-a3ac-9d19-d056-4520bc2a07d9" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:48:49+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:17+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:17+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="59b22f94-88ab-4035-9df3-8a14e3dead02" nodeName="node-ptlk6o4jtk7q1">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:11+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-12T07:38:36+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-12T07:38:35+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">COULEUR DE PEAU : MIEL</titre>
+         <theme __type="string">Les adoptés</theme>
+         <realisateur __type="string">Un film de Jung et Laurent Boileau</realisateur>
+         <genre __type="string">film d'animation</genre>
+         <producteur __type="string">Produit par Thomas Schmitt, Patrick Quinet et Nicolas Piccato</producteur>
+         <musique __type="string">Musique de&amp;nbsp;Siegfried Canto et Little Comet</musique>
+         <duree __type="string">1 h 15 mn</duree>
+         <pays __type="string">Belgique, Corée du sud, France et Suisse</pays>
+         <annee __type="string">2012</annee>
+         <synopsis __type="string">Ils sont 200 000 enfants coréens disséminés à travers le monde depuis la fin de la guerre de Corée. Un mélange d’images réelles et dessinées, utilisant à l’occasion des archives historiques et familiales, émaille ce récit autobiographique d’animation qui explore l'adoption et la mixité.</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Laurent Boileau sur le site Transmettre le cinéma :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/jung/#filmographie&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Filmographie de Jung sur le site IMDb :&lt;/p&gt;
+
+&lt;p&gt;http://www.imdb.com/name/nm3847867/?ref_=tt_ov_dr&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/couleur-de-peau-miel/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string">http://www.cnc.fr/web/fr/college-au-cinema1/-/ressources/8291924</lien_cnc_eleve>
+         <lien_cnc_prof __type="string">http://www.cnc.fr/web/fr/dossiers-maitre-college/-/ressources/8296929</lien_cnc_prof>
+         <autres_ressources __type="string">&lt;p&gt;Un document pédagogique pour travailler en EPI avec le film :&lt;/p&gt;
+
+&lt;p&gt;Travailler en EPI avec le film « Couleur de peau : miel »&lt;/p&gt;
+</autres_ressources>
+         <topimage __type="object" __identifier="bc36b96c-aa24-4f80-87fd-ad028dee2d90" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;bc36b96c-aa24-4f80-87fd-ad028dee2d90&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Couleur de peau miel - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;couleur-peau-miel-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;d1d848cc652fc64c77faa3efc611ea17bbae352f&quot;,&quot;hash&quot;:&quot;d1d848cc652fc64c77faa3efc611ea17bbae352f&quot;,&quot;__identity&quot;:&quot;6d776889-83bb-4423-9237-d878dff1a10b&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="6ae68cac-b9eb-485b-ba80-30d4462cc282" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6ae68cac-b9eb-485b-ba80-30d4462cc282&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Couleur de peau miel - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;couleur-peau-miel-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;7618a1d35adbf1bbce0dc9a3e8953cea04291e79&quot;,&quot;hash&quot;:&quot;7618a1d35adbf1bbce0dc9a3e8953cea04291e79&quot;,&quot;__identity&quot;:&quot;93c11bef-f0ee-4e77-a5b1-387a8347628c&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="01c620ee-4a34-4092-a866-a86754c3a869" nodeName="node-ekx7n51hg0vdo">
+     <variant sortingIndex="750" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:42:28+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:44+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:43+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">joue-la-comme-beckham</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Joue-la comme Beckham</title>
+      </properties>
+     </variant>
+     <node identifier="94ac7161-e1f8-0ee3-6a53-635a2a03789a" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:42:28+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:44+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:43+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="b752880c-2937-4a94-a3fd-4d4f853212f0" nodeName="node-ceep1c2xvyusm">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:31+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-11T14:18:58+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-11T14:18:58+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">JOUE-LA COMME BECKHAM</titre>
+         <theme __type="string">&amp;nbsp;Le corps en jeu</theme>
+         <realisateur __type="string">Réalisé par&amp;nbsp;Gurinder Chadha</realisateur>
+         <genre __type="string">Comédie</genre>
+         <producteur __type="string">Produit par&amp;nbsp;Kintop Pictures (U.S.A), Bend it Films (Grande-Bretagne), Roc Media et Road Movies Filmproduktion (Allemagne)</producteur>
+         <musique __type="string">Musique de&amp;nbsp;Craig Pruess</musique>
+         <duree __type="string">1 h 52</duree>
+         <pays __type="string">Allemagne, États-Unis et Grande-Bretagne</pays>
+         <annee __type="string">2002</annee>
+         <synopsis __type="string">&lt;p&gt;Jess Bhamra, une jeune fille d'origine indienne, vit avec sa famille en Angleterre. Ses parents aimeraient la voir finir ses études et faire un beau mariage dans le respect des traditions de leur pays d'origine. Mais la demoiselle ne rêve que de ballon rond. Lorsqu'une jeune Anglaise, Jules, l'invite à prendre place dans une équipe féminine de football, c'est le début d'une belle amitié et d'une grande aventure.&lt;/p&gt;
+</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Gurinder Chadha sur le site « Transmettre le cinéma » :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/chadha-gurinder/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/joue-la-comme-beckham/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string">http://www.cnc.fr/web/fr/college-au-cinema1/-/ressources/8143701</lien_cnc_eleve>
+         <lien_cnc_prof __type="string">http://www.cnc.fr/web/fr/college-au-cinema1/-/ressources/4274978</lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="a77e9fc6-ab80-45a5-bdc1-1373ee030ec1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;a77e9fc6-ab80-45a5-bdc1-1373ee030ec1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Joue la comme Beckham - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;beckham-bandeau.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;2aa4e3ea79975a22e76561c14b60ccfc5c3cf351&quot;,&quot;hash&quot;:&quot;2aa4e3ea79975a22e76561c14b60ccfc5c3cf351&quot;,&quot;__identity&quot;:&quot;39a13731-9a45-43e0-870e-69273eedc65b&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="6a9b7599-82b4-40af-aa8d-72abf8ad2266" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6a9b7599-82b4-40af-aa8d-72abf8ad2266&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Joue la comme Beckham - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;beckham-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b2e73df71a22da1e4c5c7922bc493bf3b0f7ef2d&quot;,&quot;hash&quot;:&quot;b2e73df71a22da1e4c5c7922bc493bf3b0f7ef2d&quot;,&quot;__identity&quot;:&quot;f4f8a9c0-9ab5-42e2-8dbf-7bf22c0cdea0&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="6a29ff93-7732-4462-b298-98064e82e002" nodeName="node-fjuow9do61ppp">
+     <variant sortingIndex="1200" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:51:45+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:08+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:07+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">laventure-de-mme-muir</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">L'aventure de Mme Muir</title>
+      </properties>
+     </variant>
+     <node identifier="c12b3071-3125-5972-99e8-679003fb6489" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:51:45+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:08+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:07+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="0c49d831-23dd-4b7e-89ee-3ab45d09308e" nodeName="node-w4dtqot6eb87t">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:52:01+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-12T07:57:55+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-12T07:57:54+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">L'AVENTURE DE MME MUIR</titre>
+         <theme __type="string">Visible / invisible</theme>
+         <realisateur __type="string">Un film de&amp;nbsp;Joseph L. Mankiewicz</realisateur>
+         <genre __type="string">Film fantastique</genre>
+         <producteur __type="string">Produit par&amp;nbsp;20th Century Fox Corporation, Fred Kohlmar</producteur>
+         <musique __type="string">Musique de&amp;nbsp;Bernard Herrmann</musique>
+         <duree __type="string">1 h 44 mn</duree>
+         <pays __type="string">États-Unis</pays>
+         <annee __type="string">1947</annee>
+         <synopsis __type="string">Lucy Muir, une jeune veuve, emménage dans une maison sur la côte. Elle apprend vite que la maison est hantée par le fantôme du précédent propriétaire, le capitaine Gregg. Mais les efforts du capitaine pour la faire fuir sont vains et leur relation évolue. Quand Lucy se retrouve fauchée, le capitaine lui dicte un livre sur sa vie. Le succès du livre donne à Lucy plus que de l'argent car elle rencontre un homme.</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de&amp;nbsp;Joseph L. Mankiewicz&amp;nbsp;sur le site transmettre le cinéma :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/mankiewicz-joseph-l/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/aventure-de-mme-muir-l/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string">http://www.cnc.fr/web/fr/dossiers-pedagogiques/-/ressources/6180050</lien_cnc_eleve>
+         <lien_cnc_prof __type="string">http://www.cnc.fr/web/fr/dossiers-pedagogiques/-/ressources/6180650</lien_cnc_prof>
+         <autres_ressources __type="string"></autres_ressources>
+         <topimage __type="object" __identifier="bf73f789-5a5a-4df2-b8e0-6fdae35f09ee" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;bf73f789-5a5a-4df2-b8e0-6fdae35f09ee&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;L'aventure de mme Muir - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;aventure-mme-muir-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;806325544f68e03fb0952fd36a250d06c005f0b0&quot;,&quot;hash&quot;:&quot;806325544f68e03fb0952fd36a250d06c005f0b0&quot;,&quot;__identity&quot;:&quot;726b2ea4-6512-4cdb-a6de-4181326b7d90&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="8ad71be7-98bb-41a3-ab67-419f2940fa76" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;8ad71be7-98bb-41a3-ab67-419f2940fa76&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;L'aventure de mme Muir - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;aventure-mme-muir-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;fed1e6e8217c55c331ae92f229b7ebc1309dff0a&quot;,&quot;hash&quot;:&quot;fed1e6e8217c55c331ae92f229b7ebc1309dff0a&quot;,&quot;__identity&quot;:&quot;9f93bcdb-597b-4f24-bf96-49cf7d14fa7f&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="680fafeb-d12e-4ee2-989a-7fa4cd9dece8" nodeName="node-iwbpu9de3lg0b">
+     <variant sortingIndex="1150" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:58+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:51:18+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:51:18+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">au-revoir-les-enfants</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Au revoir les enfants</title>
+      </properties>
+     </variant>
+     <node identifier="190cb159-2506-b4eb-7fe1-351b8a9ad685" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:58+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:51:18+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:51:18+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="e40e33e7-f01d-4e15-a317-2b4e8ade7043" nodeName="node-vtreqgmshaut7">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:51:13+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-12T07:53:22+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-12T07:53:22+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">AU REVOIR LES ENFANTS</titre>
+         <theme __type="string">Visible / invisiblethématique de la sélection</theme>
+         <realisateur __type="string">Un film de&amp;nbsp;Louis Malle</realisateur>
+         <genre __type="string">Drame</genre>
+         <producteur __type="string">Produit par&amp;nbsp;Louis Malle pour NEF (Nouvelles Editions de Films), Marin Karmitz pour MK2</producteur>
+         <musique __type="string">Musique de&amp;nbsp;Franz Schubert (Moment musical n° 2 en la bémol majeur) et Camille Saint-Saëns (Rondo Capricioso)</musique>
+         <duree __type="string">1 h 43 mn</duree>
+         <pays __type="string">France</pays>
+         <annee __type="string">1987</annee>
+         <synopsis __type="string">En 1944, l'amitié de deux enfants, l'un catholique, l'autre juif.</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Louis Malle sur le site transmettre le cinéma :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/malle-louis/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/au-revoir-les-enfants/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">&lt;p&gt;Un document pédagogique pour travailler en EPI :&lt;/p&gt;
+
+&lt;p&gt;Travailler en EPI avec le film « Au revoir les enfants »&lt;/p&gt;
+</autres_ressources>
+         <topimage __type="object" __identifier="64216e74-5b61-45a6-ba4a-603ed105ed5b" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;64216e74-5b61-45a6-ba4a-603ed105ed5b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Au revoir les enfants - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;revoir-enfants-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;9997722c801bca6a271dbe5e533e6f6211399cb8&quot;,&quot;hash&quot;:&quot;9997722c801bca6a271dbe5e533e6f6211399cb8&quot;,&quot;__identity&quot;:&quot;9427bc80-812e-40ba-8d7c-adc82d8ee5fd&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="818541f7-07dc-4862-9df7-1c7dd3b4666c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;818541f7-07dc-4862-9df7-1c7dd3b4666c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Au revoir les enfants - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;revoir-enfants-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;181bac05329a1792abb47cee0f87f8c404fcb394&quot;,&quot;hash&quot;:&quot;181bac05329a1792abb47cee0f87f8c404fcb394&quot;,&quot;__identity&quot;:&quot;d9b28bf1-7448-4850-9bf1-f44075c34e88&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="92789506-bcf9-49dd-ad2c-1cf4e49fbc1a" nodeName="node-j5ijgtkpiivzz">
+     <variant sortingIndex="638" workspace="live" nodeType="Canope92.Cinema:Page" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:05+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:51+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:50+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">les-cinemas</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Les cinémas</title>
+      </properties>
+     </variant>
+     <node identifier="2e5f9403-d0c0-d052-876b-7879721aa5ba" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:05+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:51+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:50+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="94e1671b-2d9a-416b-bd94-67388d828b7f" nodeName="node-7e2dfe8iajw5v">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Html" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-22T09:49:30+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T09:50:29+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T09:50:28+00:00</lastPublicationDateTime>
+        <properties>
+         <source __type="string">&lt;div&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1.0, user-scalable=no&quot;&gt;
+    &lt;style&gt;
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 700px !important;
+	   width:100%;
+	   margin-left:0px !important;
+      }
+    &lt;/style&gt;
+&lt;link href=&quot;http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/start/jquery-ui.css&quot;rel=&quot;stylesheet&quot; /&gt;
+&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+
+// This example enables Sign In by loading the Maps API with the signed_in
+// parameter set to true. For example:
+// https://maps.googleapis.com/maps/api/js?signed_in=true&amp;callback=initMap
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 10,
+    center: {lat: 48.85, lng: 2.20}
+  });
+
+  var ctaLayer = new google.maps.KmlLayer({
+    url: 'https://www.google.com/maps/d/kml?mid=1Gg7EJfpnPxk3nrpSACdADKpgiQc',
+    map: map
+  });
+  }
+&lt;/script&gt;
+&lt;h3&gt;&lt;i class=&quot;uk-icon-dot-circle-o uk-icon-medium uk-align-left&quot;&gt;&lt;/i&gt;Les cinémas partenaires dans le département des Hauts-de-Seine&lt;/h3&gt;
+&lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+&lt;script async defer
+        src=&quot;https://maps.googleapis.com/maps/api/js?key=AIzaSyDPDYHugcYH1IuIyZ5C41zBJ3RTWImXy6A&amp;callback=initMap&quot;&gt;
+ &lt;/script&gt;
+&lt;p&gt;Cliquez sur les repères pour accéder aux informations des salles de cinéma partenaires du dispositi&lt;/p&gt;
+&lt;/div&gt;</source>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="5943e471-4782-499e-8402-a229d50be719" nodeName="node-ky4g9dknumf9u">
+     <variant sortingIndex="1100" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:18+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:36+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:36+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">la-pivellina</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">La Pivellina</title>
+      </properties>
+     </variant>
+     <node identifier="e2c1bb39-0ff4-3ed0-1cca-b1f9bd51b363" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:18+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:36+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="c80824c6-d20a-4584-8872-a4454a2267b2" nodeName="node-x93a0l8ysygvy">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:50:31+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-12T07:48:10+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-12T07:48:10+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">LA PIVELLINA</titre>
+         <theme __type="string">Les adoptés</theme>
+         <realisateur __type="string">Un film de&amp;nbsp;Tizza Covi et Rainer Frimmel</realisateur>
+         <genre __type="string">Drame</genre>
+         <producteur __type="string">Produit par&amp;nbsp;Vento Films</producteur>
+         <musique __type="string"></musique>
+         <duree __type="string">1 h 40 mn</duree>
+         <pays __type="string">Autriche, Italie</pays>
+         <annee __type="string">&lt;p&gt;2009&lt;/p&gt;
+</annee>
+         <synopsis __type="string">Une artiste de cirque recueille une fillette abandonnée par sa mère.</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Tizza Covi sur le site IMDb :&lt;/p&gt;
+
+&lt;p&gt;http://www.imdb.com/name/nm2021063/?ref_=fn_al_nm_1&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Filmographie de Rainer Frimmel sur le site IMDb :&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;http://www.imdb.com/name/nm1114006/?ref_=fn_al_nm_1#director&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/la-pivellina/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string">http://www.cnc.fr/web/fr/college-au-cinema1/-/ressources/4275540</lien_cnc_prof>
+         <autres_ressources __type="string">&lt;p&gt;Sur le site de L’Atelier Canopé du Val-d'Oise, la vidéo de la conférence de Charlotte Garson, critique aux Cahiers du cinéma et à Etudes et programmatrice au Festival des 3 Continents de Nantes, contenant une analyse du film :&lt;/p&gt;
+
+&lt;p&gt;http://www.cddp95.ac-versailles.fr/cinema/La-Pivellina-college&lt;/p&gt;
+</autres_ressources>
+         <topimage __type="object" __identifier="34d54053-5541-47a1-a41d-7b892b488d6c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;34d54053-5541-47a1-a41d-7b892b488d6c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;La Pivellina - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;la-pivellina-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;fac696ecb5c00b957c9bf501a9a866d041bf6dd2&quot;,&quot;hash&quot;:&quot;fac696ecb5c00b957c9bf501a9a866d041bf6dd2&quot;,&quot;__identity&quot;:&quot;8f78ec9c-b672-4bfd-82a1-c6d14ad15a26&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="98a6e2f1-5a1f-42e9-9772-9cd126a3616b" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;98a6e2f1-5a1f-42e9-9772-9cd126a3616b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;La Pivellina - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;la-pivellina-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;289a70420a3292dfc02347fdbb03aef1d4efa253&quot;,&quot;hash&quot;:&quot;289a70420a3292dfc02347fdbb03aef1d4efa253&quot;,&quot;__identity&quot;:&quot;195529db-5b9c-4a0f-aec0-0c70616c9000&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="584595c0-c220-48ba-a841-b490192c0046" nodeName="node-lnmcz7cwaoylq">
+     <variant sortingIndex="1050" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:35+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:55+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:55+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">mon-oncle</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Mon oncle</title>
+      </properties>
+     </variant>
+     <node identifier="568c77e9-c341-a694-355b-7756a0b2e50a" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:35+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:55+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:55+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="39b44de8-f0e5-4f3c-8703-d2684e2bc67f" nodeName="node-un8dcwousdrsq">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:49:50+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-12T07:43:26+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-12T07:43:25+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">MON ONCLE</titre>
+         <theme __type="string">Les adoptésthématique de la sélection</theme>
+         <realisateur __type="string">Un film de Jacques Tati</realisateur>
+         <genre __type="string">&lt;p&gt;Comédie&lt;/p&gt;
+</genre>
+         <producteur __type="string">Produit par&amp;nbsp;Louis Dolivet et Alain Terouanne pour Specta, Gray, Alter Films et Film del Centauro (Italie)</producteur>
+         <musique __type="string">Musique de Alain Romans et Franck Barcellini</musique>
+         <duree __type="string">1 h 47 mn</duree>
+         <pays __type="string">France, Italie</pays>
+         <annee __type="string">1958</annee>
+         <synopsis __type="string">L'insouciant M. Hulot, confronté à la déshumanisation de la société inhérente à la standardisation, retrouve le monde de l'enfance.</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Jacques Tati &amp;nbsp;sur le site transmettre le cinéma :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/tati-jacques/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/mon-oncle/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string"></autres_ressources>
+         <topimage __type="object" __identifier="60ef8b3f-bb37-4ef7-89b4-368b42902243" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;60ef8b3f-bb37-4ef7-89b4-368b42902243&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Mon oncle - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;mon-oncle-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;21ac65b105baf4f87fff54c68a9e4b6322965920&quot;,&quot;hash&quot;:&quot;21ac65b105baf4f87fff54c68a9e4b6322965920&quot;,&quot;__identity&quot;:&quot;938b9883-3c9c-44fe-9032-733f20f7c50c&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="bb20872e-e125-4c37-a87e-bafb3ad55dad" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;bb20872e-e125-4c37-a87e-bafb3ad55dad&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Mon oncle - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;mon-oncle-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;1ab74b22bc688e2877d581f8c8259e0b7ca76ec5&quot;,&quot;hash&quot;:&quot;1ab74b22bc688e2877d581f8c8259e0b7ca76ec5&quot;,&quot;__identity&quot;:&quot;0e0cffe1-d1bc-4b85-8a00-85dfc6f44b22&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="5c6ac162-e269-4812-bce6-f61a3ced4d42" nodeName="node-mcdu9xy8xgony">
+     <variant sortingIndex="650" workspace="live" nodeType="Canope92.Cinema:Page" version="5" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T10:13:23+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T12:37:46+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T10:14:02+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">archives</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Archives</title>
+      </properties>
+     </variant>
+     <node identifier="118c4377-6a72-b6fc-3f12-98b0863dffc9" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T10:13:23+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T10:14:02+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T10:14:02+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="04bdb05a-babe-4a4e-b9ac-1100851bd984" nodeName="node-0mps2gd857dlz">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Html" version="13" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T10:13:54+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T11:11:32+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T11:11:31+00:00</lastPublicationDateTime>
+        <properties>
+         <source __type="string">&lt;!--version des Archives pour le site collegeaucinema92 (changer le tld .dev en .fr)--&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;2017-2018&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;chantons-sous-la-pluie.html&quot;&gt; 
+	  &lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/chantons-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Chantons sous la pluie&lt;/h1&gt;
+		  	&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;joue-la-comme-beckham.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/beckham-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Joue-la comme Beckham&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;le-gamin-au-velo.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/gamin-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Le gamin au vélo&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;la-mort-aux-trousses.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/mortTrousses-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;La mort aux trousses&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;les-betes-du-sud-sauvage.html&quot;&gt;
+		&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/sauvage-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+	  	&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Les Bêtes du Sud sauvage&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;le-havre.html&quot;&gt;
+	  &lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/havre-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Le Havre&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;</source>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="15151731-2cf4-4824-ae50-66827129df3b" nodeName="node-kc9z97vzpqym7">
+       <variant sortingIndex="125" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T11:34:20+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T11:35:50+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T11:35:49+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="318af845-d220-4f83-954b-396fb0175cb6" nodeName="node-ohkh4acaxxbsa">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Html" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T11:31:57+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T11:11:53+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T11:11:53+00:00</lastPublicationDateTime>
+        <properties>
+         <source __type="string">&lt;!--version des Archives pour le site collegeaucinema92 (changer le tld .dev en .fr)--&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;2016-2017&lt;/strong&gt;&lt;/h1&gt; 
+
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;couleur-peau-miel.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/couleur-peau-miel-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Couleur de peau : Miel&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;mon-oncle.html&quot;&gt; 
+	  &lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/mon-oncle-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Mon oncle&lt;/h1&gt;
+		  	&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;la-pivellina.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/la-pivellina-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;La Pivellina&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;au-revoir-les-enfants.html&quot;&gt;
+	  	&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/revoir-enfants-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Au revoir les enfants&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;aventure-mme-muir.html&quot;&gt;
+		&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/aventure-mme-muir-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+	  	&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;L'aventure de Mme Muir&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;work&quot;&gt;
+	&lt;a href=&quot;enfance-clandestine.html&quot;&gt;
+	  &lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/films/enfance-clandestine-menu.jpg&quot; class=&quot;media&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;caption&quot;&gt;
+			&lt;div class=&quot;work_title&quot;&gt;
+				&lt;h1&gt;Enfance clandestine&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/div&gt;</source>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="52083d9b-6569-4f2e-ba66-1bd78f4f30c5" nodeName="node-nvvsc7kvxw54w">
+     <variant sortingIndex="544" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="6" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:35:09+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:37+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:37+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">le-voleur-de-bicyclette</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Le voleur de bicyclette</title>
+      </properties>
+     </variant>
+     <node identifier="0441e507-c654-d01c-d806-e32bb344a0f9" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:35:09+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:37+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:37+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="645bc648-ded6-479c-ac0a-b86a5d7eadda" nodeName="node-29jlmd13ylror">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:Film" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:39:34+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T14:40:52+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T14:40:51+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre</titre>
+         <theme __type="string">thématique de la sélection</theme>
+         <realisateur __type="string">Réalisé par ...</realisateur>
+         <genre __type="string">Genre du film</genre>
+         <producteur __type="string">Produit par ...</producteur>
+         <musique __type="string">Musique de ...</musique>
+         <duree __type="string">Durée du film (h mn)</duree>
+         <pays __type="string">Pays</pays>
+         <annee __type="string">Année</annee>
+         <synopsis __type="string">synopsis</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">A propos du réalisateur</aproposreal>
+         <lien_transmettrecinema __type="string">lien sur le site Transmettre le cinéma</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="a8d0137a-77e0-4106-901a-b1d4704c9b63" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;a8d0137a-77e0-4106-901a-b1d4704c9b63&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Le voleur de bicyclette - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;voleur-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;762ec255194240993b7d699e5b23b16d6477fb4f&quot;,&quot;hash&quot;:&quot;762ec255194240993b7d699e5b23b16d6477fb4f&quot;,&quot;__identity&quot;:&quot;6ddc6e6b-3702-4876-89f0-c5f9175079e3&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="e47f4394-7401-4a52-bfdf-277f3ce7b641" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e47f4394-7401-4a52-bfdf-277f3ce7b641&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Le voleur de bicyclette - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;voleur-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;37c9e6e53d8adf60029e1695ab80edb15d52bb84&quot;,&quot;hash&quot;:&quot;37c9e6e53d8adf60029e1695ab80edb15d52bb84&quot;,&quot;__identity&quot;:&quot;58134f87-80f0-49e6-8054-a139242f59d6&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="a7710c6e-a3b2-4655-9cfd-5686a6364518" nodeName="node-nxudb4ce1allw">
+     <variant sortingIndex="950" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:45:22+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:45:46+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:45:46+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">le-havre</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Le Havre</title>
+      </properties>
+     </variant>
+     <node identifier="a8af1dd9-677f-0ce3-3b80-d8aed80d4fc4" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:45:22+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:45:46+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:45:46+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="4b7442bc-cbfd-4ae6-b85a-a234b825077e" nodeName="node-ipya03lcce8pk">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:45:32+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-12T07:24:53+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-12T07:24:53+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">LE HAVRE</titre>
+         <theme __type="string">&amp;nbsp;Rester, Partirthématique de la sélection</theme>
+         <realisateur __type="string">Réalisé par&amp;nbsp;Aki Kaurismäki</realisateur>
+         <genre __type="string">Comédie dramatique</genre>
+         <producteur __type="string">Produit par&amp;nbsp;Aki Kaurismäki</producteur>
+         <musique __type="string">Musique : divers compositeurs</musique>
+         <duree __type="string">1 h 38</duree>
+         <pays __type="string">Allemagne, Finlande et France</pays>
+         <annee __type="string">2011</annee>
+         <synopsis __type="string">&lt;p&gt;Marcel Marx a remisé ses ambitions et ses succès d’écrivain, autant que sa vie de bohême. Il s’est installé au Havre, dans un vieux quartier et gagne maintenant sa vie en cirant des chaussures à la gare. Il est témoin de la découverte par la police d’un container rempli de clandestins africains. Un enfant parvient à s’échapper. Marcel part à la recherche du gamin et, lorsqu’il l’a retrouvé, l’héberge. Le petit Idrissa veut rejoindre sa mère en Angleterre. Mais comment ? Marcel et tout le quartier vont lui venir en aide.&lt;/p&gt;
+</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie d’Aki Kaurismäki sur le site « Transmettre le cinéma » :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/kaurismaki-aki/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/le-havre/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string">http://www.cnc.fr/web/fr/college-au-cinema1/-/ressources/4269763</lien_cnc_eleve>
+         <lien_cnc_prof __type="string">http://www.cnc.fr/web/fr/college-au-cinema1/-/ressources/4275568</lien_cnc_prof>
+         <autres_ressources __type="string">&lt;p&gt;&amp;gt; Le dossier d'accompagnement sur le site du CNC :&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;La fiche élève :&amp;nbsp;http://www.cnc.fr/web/fr/college-au-cinema1/-/ressources/4269763&lt;/p&gt;
+
+&lt;p&gt;La fiche professeur :&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;http://www.cnc.fr/web/fr/college-au-cinema1/-/ressources/4275568&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; La fiche du film sur le site &quot;Transmettre le&amp;nbsp;cinéma&quot;&amp;nbsp;:&amp;nbsp;http://www.transmettrelecinema.com/film/le-havre/&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; &amp;nbsp;Plateforme « Aux films citoyens »&lt;/p&gt;
+
+&lt;p&gt;Un dossier pédagogique&amp;nbsp;d'exploitation du film&amp;nbsp;:&amp;nbsp;https://www.reseau-canope.fr/notice/le-havre_9187.html#bandeauPtf&lt;/p&gt;
+
+&lt;p&gt;Ce film est disponible en audiodescription, sous-titres sourd et malentendant, haute définition (HD) et basse définition (SD), en streaming et en téléchargement.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; Musique du film, voir sur le site &quot;IMDb&quot; :&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;http://www.imdb.com/title/tt1508675/soundtrack&lt;/p&gt;
+</autres_ressources>
+         <topimage __type="object" __identifier="18b0b031-4663-4221-b9dc-1b73114cfa87" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;18b0b031-4663-4221-b9dc-1b73114cfa87&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Le Havre - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;havre-bandeau.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;d9b4fb3265f0934d9ec5ca3d5989fc1fb159facf&quot;,&quot;hash&quot;:&quot;d9b4fb3265f0934d9ec5ca3d5989fc1fb159facf&quot;,&quot;__identity&quot;:&quot;c3cecb93-7612-4804-8c90-0c363399476b&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="34013265-5e6a-4c03-b805-696c598b6d19" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;34013265-5e6a-4c03-b805-696c598b6d19&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Le Havre - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;havre-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;529922c5d5ef9ac52de394d7a7ae05f4344f4f16&quot;,&quot;hash&quot;:&quot;529922c5d5ef9ac52de394d7a7ae05f4344f4f16&quot;,&quot;__identity&quot;:&quot;17d7a44a-588d-41ad-a23a-08549142fedc&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="f8fba4a2-eb6c-44e7-81ba-1e5fa97cdc07" nodeName="node-rc8w2vzg0ig9q">
+     <variant sortingIndex="850" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:18+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:44+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:43+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">la-mort-aux-trousses</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">La mort aux trousses</title>
+      </properties>
+     </variant>
+     <node identifier="2e65630f-2270-2064-ae66-d34e8b0fdbcd" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:18+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:44+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:43:43+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="2d84b1b1-ef3d-4b1f-a980-c54c2ccb2e87" nodeName="node-w6of5lgdet711">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:52+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-11T14:23:55+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-11T14:23:55+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">LA MORT AUX TROUSSES</titre>
+         <theme __type="string">Rester, Partir</theme>
+         <realisateur __type="string">Réalisé par Alfred Hitchcock</realisateur>
+         <genre __type="string">Policier</genre>
+         <producteur __type="string">Produit par&amp;nbsp;Alfred Hitchcock pour MGM</producteur>
+         <musique __type="string">Musique de Bernard Herrmann</musique>
+         <duree __type="string">2 h 16</duree>
+         <pays __type="string">USA</pays>
+         <annee __type="string">1959</annee>
+         <synopsis __type="string">&lt;br /&gt;
+Le publiciste Roger Tornhill se retrouve par erreur dans la peau d'un espion. Pris entre une mystérieuse organisation qui cherche à le supprimer et la police qui le poursuit, Tornhill est dans une situation bien inconfortable. Il fuit à travers les Etats-Unis et part à la recherche d'une vérité qui se révèlera très surprenante.</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie d’Alfred Hitchcock sur le site « Transmettre le cinéma » :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/hitchcock-alfred/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/mort-aux-trousses-la/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="3340e099-ad31-49ec-bb90-332d91751875" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3340e099-ad31-49ec-bb90-332d91751875&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;La mort aux trousses - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;mortTrousses-bandeau.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5fe0553fd2691db618da6443703826928176fdc6&quot;,&quot;hash&quot;:&quot;5fe0553fd2691db618da6443703826928176fdc6&quot;,&quot;__identity&quot;:&quot;949ddd15-e58e-49bb-88ce-d63c7d4432ab&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="96b3fa34-c7d5-49bd-892c-b1b21de21b5c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;96b3fa34-c7d5-49bd-892c-b1b21de21b5c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;La mort aux trousses - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;mortTrousses-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;3fc8f4026a6b928ec73ce7e4ae88128d652c1d3f&quot;,&quot;hash&quot;:&quot;3fc8f4026a6b928ec73ce7e4ae88128d652c1d3f&quot;,&quot;__identity&quot;:&quot;17b44b60-fabe-4c5c-bf28-10dc308c3a06&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="0f8a45bd-9911-40cf-b64a-88f1b63f9e57" nodeName="node-rsrt1pzjqwqkc">
+     <variant sortingIndex="549" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="5" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:37:11+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:25:38+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:25:38+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">bienvenue-a-gattaca</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Bienvenue à Gattaca</title>
+      </properties>
+     </variant>
+     <node identifier="dbd1aa0c-b48b-df6d-a0ae-197c5c102b4d" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:37:11+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:25:38+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:25:38+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="31fa7f0b-0f51-4658-b711-d37ea2c67ce0" nodeName="node-is83qdki4o37m">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:Film" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:40:41+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T14:44:12+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T14:44:12+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre</titre>
+         <theme __type="string">thématique de la sélection</theme>
+         <realisateur __type="string">Réalisé par ...</realisateur>
+         <genre __type="string">Genre du film</genre>
+         <producteur __type="string">Produit par ...</producteur>
+         <musique __type="string">Musique de ...</musique>
+         <duree __type="string">Durée du film (h mn)</duree>
+         <pays __type="string">Pays</pays>
+         <annee __type="string">Année</annee>
+         <synopsis __type="string">synopsis</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">A propos du réalisateur</aproposreal>
+         <lien_transmettrecinema __type="string">lien sur le site Transmettre le cinéma</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="571ba8e2-6795-44a6-bfba-36e2026b86a7" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571ba8e2-6795-44a6-bfba-36e2026b86a7&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Bienvenue \u00e0 Gattaca - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;gattaca-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;8c58fdb48947a5cee5fbb020ab5cdb18040444bb&quot;,&quot;hash&quot;:&quot;8c58fdb48947a5cee5fbb020ab5cdb18040444bb&quot;,&quot;__identity&quot;:&quot;83a575bf-52c0-4a91-a874-13e7264d2844&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="99fd2f5c-d927-4dda-a0f4-1f9eac5dc30f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;99fd2f5c-d927-4dda-a0f4-1f9eac5dc30f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Bienvenue \u00e0 Gattaca - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;gattaca-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;48f462b28d4a4386f305a3cb6f4ca4807641c9f1&quot;,&quot;hash&quot;:&quot;48f462b28d4a4386f305a3cb6f4ca4807641c9f1&quot;,&quot;__identity&quot;:&quot;ba0fdf7d-6ad5-4895-8460-62dc7cd937a0&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="39f75911-f2fe-4de7-947f-9ed089b15dbc" nodeName="node-su4y33pic1cct">
+     <variant sortingIndex="644" workspace="live" nodeType="Canope92.Cinema:Page" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:22+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:47+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:47+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">le-dispositif</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Le dispositif</title>
+      </properties>
+     </variant>
+     <node identifier="f035788f-53f3-e3e9-d100-e4b058f7fbd2" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:22+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:47+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T09:43:47+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="c9a90799-8349-41cc-b920-d89ecd14b8c9" nodeName="node-4ido2mh25mbny">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Html" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-22T09:54:07+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T10:58:53+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T10:58:53+00:00</lastPublicationDateTime>
+        <properties>
+         <source __type="string">&lt;!-- page dispositif pour collegeaucinema--&gt;
+&lt;div class=&quot;uk-grid uk-grid-large&quot;&gt;
+    &lt;div class=&quot;uk-width-medium-1-2&quot;&gt;
+	   &lt;a class=&quot;teaser&quot; href=&quot;#miseenoeuvre&quot;&gt;
+        &lt;div class=&quot;uk-panel block_menu&quot;&gt;&lt;h1 class=&quot;teaser&quot;&gt;&lt;i class=&quot;uk-icon-gears uk-icon-large&quot;&gt;&lt;/i&gt;&lt;/h1&gt;&lt;h2 class=&quot;uk-panel-title&quot;&gt;Mise en oeuvre&lt;/h2&gt;
+		  &lt;p class=&quot;teaser&quot;&gt;modalités d’inscription, agenda …&lt;/p&gt;
+	  &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;uk-width-medium-1-2&quot;&gt;
+        &lt;a class=&quot;teaser&quot; href=&quot;#formations&quot;&gt;
+        &lt;div class=&quot;uk-panel block_menu&quot;&gt;&lt;h1 class=&quot;teaser&quot;&gt;&lt;i class=&quot;uk-icon-graduation-cap uk-icon-large&quot;&gt;&lt;/i&gt;&lt;/h1&gt;&lt;h2 class=&quot;uk-panel-title&quot;&gt;Formations&lt;/h2&gt;
+	  &lt;p class=&quot;teaser&quot;&gt;Programme des différentes sessions de formation, informations pratiques …&lt;/p&gt;
+	  &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+&lt;div class=&quot;uk-grid uk-grid-large&quot;&gt;
+     &lt;div class=&quot;uk-width-medium-1-2&quot;&gt;
+        &lt;a class=&quot;teaser&quot; href=&quot;#bilans&quot;&gt;
+        &lt;div class=&quot;uk-panel block_menu&quot;&gt;&lt;h1 class=&quot;teaser&quot;&gt;&lt;i class=&quot;uk-icon-list uk-icon-large&quot;&gt;&lt;/i&gt;&lt;/h1&gt;&lt;h2 class=&quot;uk-panel-title&quot;&gt;Comptes rendus et bilans&lt;/h2&gt;
+	  &lt;p class=&quot;teaser&quot;&gt;Les comptes rendus du comité de pilotage, et les bilans annuels du dispositif&lt;/p&gt;
+	  &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;uk-width-medium-1-2&quot;&gt;
+        &lt;blockquote&gt;
+            &lt;h2&gt;&lt;i class=&quot;uk-icon-quote-left uk-icon-large uk-align-left&quot;&gt;&lt;/i&gt;&lt;/h2&gt;
+            &lt;p&gt;Le dispositif &lt;span style=&quot;font-style:normal;&quot;&gt;Collège au Cinéma 92&lt;/span&gt; est la déclinaison départementale d'éducation au cinéma que met en place le ministère de l'Éducation nationale dans le cadre de l'éducation artistique et culturelle. Le dispositif repose sur le partenariat entre l’Éducation nationale, le réseau Canopé, le Conseil départemental et les salles de cinéma des Hauts-de-Seine et le Centre National de la Cinématographie et de l’image animée.
+
+            &lt;/p&gt;
+        &lt;/blockquote&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;div class=&quot;uk-grid uk-grid-large&quot;&gt;
+    &lt;div class=&quot;uk-width-medium-1-2&quot;&gt;
+        &lt;a class=&quot;teaser&quot; href=&quot;#contacts&quot;&gt;
+        &lt;div class=&quot;uk-panel block_menu&quot;&gt;&lt;h1 class=&quot;teaser&quot;&gt;&lt;i class=&quot;uk-icon-weixin uk-icon-large&quot;&gt;&lt;/i&gt;&lt;/h1&gt;&lt;h2 class=&quot;uk-panel-title&quot;&gt;Contacts&lt;/h2&gt;
+	  &lt;p class=&quot;teaser&quot;&gt;Coordinateurs, contacts administratifs, webmestre …&lt;/p&gt;
+	  &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;uk-width-medium-1-2&quot;&gt;
+        &lt;a class=&quot;teaser&quot; href=&quot;http://www.viaeduc.fr&quot;&gt;
+            &lt;div class=&quot;uk-panel block_menu&quot;&gt;&lt;h1 class=&quot;teaser&quot;&gt;&lt;i class=&quot;uk-icon-share-alt uk-icon-large&quot;&gt;&lt;/i&gt;&lt;/h1&gt;&lt;h2 class=&quot;uk-panel-title&quot;&gt;Échange de pratiques&lt;/h2&gt;
+	  &lt;p class=&quot;teaser&quot;&gt;Mise en commun de travaux proposés aux élèves à travers la plateforme collaborative Viaéduc. Cet espace vous appartient, n’hésitez pas à partager vos expériences !&lt;/p&gt;
+	  &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;hr/&gt;
+&lt;div class=&quot;uk-grid uk-grid-large&quot; &gt;
+    &lt;div class=&quot;uk-width-medium-1-4 logo&quot;&gt;
+        &lt;a href=&quot;http://www.hauts-de-seine.fr/&quot;&gt;&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/logo-CD92.png&quot; title=&quot;CD 92&quot; alt=&quot;CD 92&quot; class=&quot;logo_dispositifs&quot;/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;uk-width-medium-1-4 logo&quot;&gt;
+        &lt;a href=&quot;https://www.reseau-canope.fr&quot;&gt;&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/logo-CANOPE.png&quot; title=&quot;Canopé 92- Surenses&quot; alt=&quot;Canopé 92&quot; class=&quot;logo_dispositifs&quot;/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;uk-width-medium-1-4 logo&quot;&gt;
+        &lt;a href=&quot;http://www.ac-versailles.fr/&quot;&gt;&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/logo-DSDEN.png&quot; title=&quot;DSDEN92&quot; alt=&quot;DSDEN 92&quot; class=&quot;logo_dispositifs&quot;/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;uk-width-medium-1-4 logo&quot;&gt;
+        &lt;a href=&quot;http://www.cnc.fr/web/fr&quot;&gt;&lt;img src=&quot;_Resources/Static/Packages/Canope92.Cinema/Images/logo-CNC.png&quot; title=&quot;CNC&quot; alt=&quot;CNC&quot; class=&quot;logo_dispositifs&quot;/&gt;&lt;/a&gt;
+    &lt;/div&gt; 
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;br/&gt;
+&lt;h3 class=&quot;dispositif&quot; id=&quot;miseenoeuvre&quot;&gt;&lt;i class=&quot;uk-icon-gears uk-icon-large uk-align-left&quot;&gt;&lt;/i&gt;Mise en oeuvre&lt;/h3&gt;
+&lt;div class=&quot;uk-block block_info&quot;&gt;    
+&lt;div class=&quot;contenu&quot;&gt;
+        &lt;div&gt;  &lt;p&gt;L'opération « Collège au cinéma » propose aux collégiens  du département de découvrir des œuvres cinématographiques, lors de projections organisées spécialement à leur intention dans les salles de cinéma et de se constituer ainsi, dans le cadre d'un travail pédagogique d'accompagnement conduit par les enseignants et les partenaires culturels, les bases d'une culture cinématographique.&lt;/p&gt; &lt;p&gt;&lt;br/&gt; &lt;/p&gt; &lt;p&gt;&lt;b&gt;Inscriptions du 29 août 2016 au 16 septembre 2016&lt;/b&gt; &lt;/p&gt; &lt;p&gt;&lt;br/&gt; Télécharger &lt;a target=&quot;_blank&quot; href=&quot;http://www.ac-versailles.fr/public/jcms/s1_334003/pdf-mise-en-oeuvre-academique-et-departementale-de-leducation-artistique-et-culturelle-doc-7-circulaire-au-cinema&quot;&gt;la circulaire Collège au cinéma&lt;/a&gt; &lt;/p&gt; &lt;p&gt;N.B. : l’inscription à École et Cinéma et Collège au cinéma se fait exclusivement via &lt;b&gt;l’application CINEMA&lt;/b&gt; (Collecte des Inscriptions Numériques des Établissements et Mutualisation Académique) &lt;b&gt;intégrée au portail ARENA&lt;/b&gt;.&lt;/p&gt; &lt;p&gt;&lt;br/&gt; &lt;/p&gt; &lt;p&gt;Lire &lt;a target=&quot;_blank&quot; href=&quot;http://www.ac-versailles.fr/public/jcms/s1_334004/pdf-mise-en-oeuvre-academique-et-departementale-de-leducation-artistique-et-culturelle-doc-8-guide-inscription&quot;&gt;le guide inscription&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br/&gt; &lt;/p&gt; &lt;p&gt;Télécharger &lt;a target=&quot;_blank&quot; href=&quot;http://www.canope92.fr/collegeaucinema/vademecum-CAC92_2016.pdf&quot;&gt;le vademecum du coordinateur&lt;/a&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&quot;dispositif&quot; id=&quot;contacts&quot;&gt;&lt;i class=&quot;uk-icon-weixin uk-icon-large uk-align-left&quot;&gt;&lt;/i&gt;Contacts&lt;/h3&gt;
+&lt;div class=&quot;uk-block block_info&quot;&gt;
+&lt;div class=&quot;contenu&quot;&gt;
+        &lt;div&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;DIRECTION DES SERVICES DÉPARTEMENTAUX DE L’ÉDUCATION NATIONALE DES HAUTS-DE-SEINE&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Site internet : &lt;a href=&quot;http://www.ac-versailles.fr/dsden92/&quot; target=&quot;_blank&quot;&gt;http://www.ac-versailles.fr/dsden92/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Personnes à contacter&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Françoise Colcanap&lt;/b&gt; (coordination générale , inscriptions)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;mailto:francoise.colcanap@ac-versailles&quot;&gt;francoise.colcanap@ac-versailles&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Mathieu Rasoli&lt;/b&gt; (coordination, formation)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;mailto:mathieu.rasoli@ac-versailles.fr&quot;&gt;mathieu.rasoli@ac-versailles.fr&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;DÉLÉGATION ACADÉMIQUE À L’ACTION CULTURELLE DE L’ACADÉMIE DE VERSAILLES&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Site internet : &lt;a href=&quot;http://www.ac-versailles.fr/arts/daac/&quot; target=&quot;_blank&quot;&gt;http://www.ac-versailles.fr/arts/daac/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Personne à contacter :&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Mathieu Rasoli &lt;/b&gt; (conseillère pour le cinéma et l’audiovisuel) &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;mailto:mathieu.rasoli@ac-versailles.fr&quot;&gt;mathieu.rasoli@ac-versailles.fr&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Tél. : 01 30 83 45 64&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;CONSEIL DÉPARTEMENTAL DES HAUTS-DE SEINE&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Site internet : &lt;a href=&quot;http://www.hauts-de-seine.fr/&quot; target=&quot;_blank&quot;&gt;http://www.hauts-de-seine.fr/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Personnes  à contacter&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Manuella Lucchini  ou Clarisse Rougier (&lt;/b&gt;conventions, organisation matérielle, distribution  des documents  pédagogiques)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;mailto:collegeaucinema@hauts-de-seine.fr&quot;&gt;collegeaucinema@hauts-de-seine.fr&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Tél : 01 47 29 34 26 / 01 47 29 38 89&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;CINÉMA LE CAPITOLE à SURESNES &lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Site internet : &lt;a target=&quot;_blank&quot; href=&quot;http://cinema-lecapitole.com/&quot;&gt;http://cinema-lecapitole.com/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Personne à contacter&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Eric Jolivalt&lt;/b&gt; (coordonnateur salles : circulation des copies et relations avec les salles de cinéma)&lt;/p&gt;&lt;p&gt; &lt;a target=&quot;_blank&quot; href=&quot;http://www.cinema-lecapitole.com&quot;&gt;www.cinema-lecapitole.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Tél : 01 47 72 42 42&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;ATELIER CANOPÉ HAUTS-DE-SEINE&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Site internet : &lt;a href=&quot;http://www.cddp92.ac-versailles.fr/&quot; target=&quot;_blank&quot;&gt;http://www.cddp92.ac-versailles.fr/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Personnes à contacter&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Marie-Estelle Fabre&lt;/b&gt; (médiatrice ressources et offre de services / animation du site Collège au cinéma 92&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;mailto:marie-estelle.fabre@crdp.ac-versailles.fr&quot;&gt;marie-estelle.fabre@reseau-canope.fr&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Edite Martins&lt;/b&gt; (accompagnement documentaire / animation du site Collège au cinéma 92)&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;mailto:edite.martins@crdp.ac-versailles.fr&quot;&gt;edite.martins@&lt;/a&gt;&lt;a href=&quot;mailto:marie-estelle.fabre@crdp.ac-versailles.fr&quot;&gt;reseau-canope.fr&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Tél : 01 40 99 55 89&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;LE CENTRE NATIONAL DE LA CINÉMATOGRAPHIE ET DE L’IMAGE ANIMÉE (CNC)&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Site internet : &lt;a href=&quot;http://www.cnc.fr/&quot; target=&quot;_blank&quot;&gt;http://www.cnc.fr/&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;LE MINISTÈRE DE L’ÉDUCATION NATIONALE, DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Site internet : &lt;a href=&quot;http://www.education.gouv.fr/&quot; target=&quot;_blank&quot;&gt;http://www.education.gouv.fr/&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;b&gt;LE MINISTÈRE DE LA CULTURE ET DE LA COMMUNICATION&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Site internet &lt;a target=&quot;_blank&quot; href=&quot;http://www.education.gouv.fr/&quot;&gt;http://www.education.gouv.fr/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&quot;dispositif&quot; id=&quot;formations&quot;&gt;&lt;i class=&quot;uk-icon-graduation-cap uk-icon-large uk-align-left&quot;&gt;&lt;/i&gt;Formations&lt;/h3&gt;
+&lt;div class=&quot;uk-block block_info&quot;&gt;    
+&lt;h4&gt;projections-conférences&lt;/h4&gt;
+    &lt;div class=&quot;contenu&quot;&gt;
+        &lt;div&gt;&lt;p&gt;les projections- conférences ont toujours  lieu au cinéma Le Capitole,  3 Rue Ledru Rollin, 92150 Suresnes :&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;- vendredi 7 octobre 2016 : programmation 6e-5e, films des 1er et 2e trimestres&lt;/p&gt;&lt;p&gt;et/ou&lt;/p&gt;&lt;p&gt;- mardi 11 octobre  2016 :&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;programmation 4e-3e, films des 1er et 2e trimestres&lt;br/&gt;&lt;/p&gt;&lt;p&gt;-mardi 28 février 2017:&lt;/p&gt;&lt;p&gt;toutes programmation , films du 3e trimestre&lt;br/&gt;&lt;/p&gt;&lt;p&gt;- vendredi 16 juin 2017 : bilan 2016-2017 et programmation 2017-2018 (pour tous)&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;br/&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;h4&gt;ateliers&lt;/h4&gt;
+    &lt;div class=&quot;contenu&quot;&gt;
+        &lt;div&gt;&lt;p&gt;&lt;strong&gt;- ateliers d'analyse&lt;/strong&gt; :&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;ils ont lieu dans le mois qui précède la projection du film aux élèves ( entre  décembre et  avril)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;atelier 1 &lt;/strong&gt;:&lt;/p&gt;&lt;p&gt;jeudi 1er décembre (4e/3e)&lt;/p&gt;&lt;p&gt;mardi 13 décembre (6e/5e)&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;b&gt;- des questions de cinéma&lt;/b&gt; : jeudi 26 et vendredi 27 janvier 2017&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;br/&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&quot;dispositif&quot; id=&quot;bilans&quot;&gt;&lt;i class=&quot;uk-icon-list uk-icon-large uk-align-left&quot;&gt;&lt;/i&gt;Comptes rendus et bilans&lt;/h3&gt;
+&lt;div class=&quot;uk-block block_info&quot;&gt;
+    &lt;div class=&quot;contenu&quot;&gt;
+        &lt;div&gt;&lt;p&gt;Retrouvez le compte rendu du comité de pilotage de la saison 2015-2016 (comité de pilotage du 31 mars 2016) :&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.canope92.fr/collegeaucinema/CR-copil-CAC-16-03-2016.pdf&quot;&gt;http://www.canope92.fr/collegeaucinema/CR-copil-CAC-16-03-2016.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Le bilan complet de l'enquête menée au sujet du dispositif (année 2014-2015) est disponible :&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.canope92.fr/collegeaucinema/enquete-bilan2014-15_CAC92.pdf&quot;&gt;http://www.canope92.fr/collegeaucinema/enquete-bilan2014-15_CAC92.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Vous pouvez également télécharger une archive contenant les comptes rendus des comités de pilotage des dernières années (2010 - 2015) :&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.canope92.fr/collegeaucinema/archives_COPIL_2010-2015.zip&quot;&gt;http://www.canope92.fr/collegeaucinema/archives_COPIL_2010-2015.zip&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</source>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="7bcac30c-bda9-44d7-b7f4-2ada8ddf39fe" nodeName="node-u3ajvgpud360m">
+     <variant sortingIndex="547" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="6" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:35:53+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:37+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:37+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">hors-jeu</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Hors-Jeu</title>
+      </properties>
+     </variant>
+     <node identifier="4cc49bd1-249d-ce90-26ad-3ba7e25ac31f" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:35:54+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:37+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:26:37+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="cf0449f4-57ea-4778-86a3-f0cb0e1b6e89" nodeName="node-2od17uh0prs6s">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:Film" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T12:39:47+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-08-22T14:42:21+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-22T14:42:21+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">Titre</titre>
+         <theme __type="string">thématique de la sélection</theme>
+         <realisateur __type="string">Réalisé par ...</realisateur>
+         <genre __type="string">Genre du film</genre>
+         <producteur __type="string">Produit par ...</producteur>
+         <musique __type="string">Musique de ...</musique>
+         <duree __type="string">Durée du film (h mn)</duree>
+         <pays __type="string">Pays</pays>
+         <annee __type="string">Année</annee>
+         <synopsis __type="string">synopsis</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">A propos du réalisateur</aproposreal>
+         <lien_transmettrecinema __type="string">lien sur le site Transmettre le cinéma</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="f9455ef7-193f-415c-afc8-3fb2af63cc60" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f9455ef7-193f-415c-afc8-3fb2af63cc60&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Hors-jeu - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;hors-jeu-top.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;144cc8bd1776ed2063275da18e492879fa478055&quot;,&quot;hash&quot;:&quot;144cc8bd1776ed2063275da18e492879fa478055&quot;,&quot;__identity&quot;:&quot;60580d19-86bc-452c-b7ce-12e5cb1cdac4&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="8c634c36-2d02-41de-bb9a-64fde44f9979" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;8c634c36-2d02-41de-bb9a-64fde44f9979&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Hors-jeu - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;hors-jeu-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ca245f56aed48e4e3d2e1059ae44fe937529259a&quot;,&quot;hash&quot;:&quot;ca245f56aed48e4e3d2e1059ae44fe937529259a&quot;,&quot;__identity&quot;:&quot;4006e97b-fc95-4546-9313-913d98703081&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="12ac0bc8-7fcb-46ac-a5c0-f84895674b60" nodeName="node-zlgpewinv0k0y">
+     <variant sortingIndex="900" workspace="live" nodeType="Canope92.Cinema:PageFilm" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:10+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:16+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:16+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">les-betes-du-sud-sauvage</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Les Bêtes du Sud sauvage</title>
+      </properties>
+     </variant>
+     <node identifier="ac0a4b32-a905-a27c-0022-a2c499d5352b" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:10+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:16+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-08-21T13:44:16+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="3f51cec3-66dc-44dc-b8f3-6a31aedc9774" nodeName="node-3w7la8ctfiylk">
+       <variant sortingIndex="100" workspace="live" nodeType="Canope92.Cinema:FilmArchive" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-08-21T13:45:00+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-09-12T07:18:59+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-12T07:18:59+00:00</lastPublicationDateTime>
+        <properties>
+         <titre __type="string">LES BÊTES DU SUD SAUVAGE</titre>
+         <theme __type="string">&amp;nbsp;Rester, Partir</theme>
+         <realisateur __type="string">Réalisé par&amp;nbsp;Benh Zeitlin</realisateur>
+         <genre __type="string">Drame</genre>
+         <producteur __type="string">Produit par Michael Gottwald, Dan Janvey et Josh Penn</producteur>
+         <musique __type="string">Musique de&amp;nbsp;Dan Romer (en) et Benh Zeitlin</musique>
+         <duree __type="string">1 h 32</duree>
+         <pays __type="string">USA</pays>
+         <annee __type="string">&lt;p&gt;2012&lt;/p&gt;
+</annee>
+         <synopsis __type="string">Hushpuppy, 6 ans, vit dans le bayou avec son père. Brusquement, la nature s'emballe, la température monte, les glaciers fondent, libérant une armée d'aurochs. Avec la montée des eaux, l'irruption des aurochs et la santé de son père qui décline, Hushpuppy décide de partir à la recherche de sa mère disparue.</synopsis>
+         <aproposfilm __type="string">A propos du film</aproposfilm>
+         <aproposreal __type="string">&lt;p&gt;Filmographie de Benh Zeitlin sur le site « Transmettre le cinéma » :&lt;/p&gt;
+
+&lt;p&gt;http://www.transmettrelecinema.com/acteur/zeitlin-benh/#filmographie&lt;/p&gt;
+</aproposreal>
+         <lien_transmettrecinema __type="string">http://www.transmettrelecinema.com/film/betes-sud-sauvage/</lien_transmettrecinema>
+         <lien_cnc_eleve __type="string"></lien_cnc_eleve>
+         <lien_cnc_prof __type="string"></lien_cnc_prof>
+         <autres_ressources __type="string">Autres ressources</autres_ressources>
+         <topimage __type="object" __identifier="4698ea5b-102c-4723-8d48-ee6c80fb9064" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;4698ea5b-102c-4723-8d48-ee6c80fb9064&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Les betes du sud sauvage - bandeau&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;sauvage-bandeau.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a6c4897e68b6a69f0e6aec176b6f599230c65598&quot;,&quot;hash&quot;:&quot;a6c4897e68b6a69f0e6aec176b6f599230c65598&quot;,&quot;__identity&quot;:&quot;dccc45fc-b95d-4a86-b55c-a7ba8050d171&quot;}}</topimage>
+         <afficheimage __type="object" __identifier="3337cc18-02b0-4238-9817-507b83e3bf4a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3337cc18-02b0-4238-9817-507b83e3bf4a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;Les betes du sud sauvage - affiche&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;sauvage-affiche.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;9b924856245dab913afe3629016034db785cfd34&quot;,&quot;hash&quot;:&quot;9b924856245dab913afe3629016034db785cfd34&quot;,&quot;__identity&quot;:&quot;0a89d436-b378-47a4-b19a-310c541aa07a&quot;}}</afficheimage>
+        </properties>
+       </variant>
+      </node>
      </node>
     </node>
    </node>

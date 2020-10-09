@@ -1,7 +1,0 @@
-prototype(canope92.cinema:DocsPeda) < prototype(TYPO3.Neos:Content) {
-        templatePath = 'resource://canope92.cinema/Private/Templates/TypoScriptObjects/DocsPeda.html'       
-        titre = ${q(node).property('titre')}
-        auteur = ${q(node).property('auteur')}
-        description = ${q(node).property('description')}
-        
-}

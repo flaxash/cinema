@@ -1,5 +1,0 @@
-prototype(canope92.cinema:Bouton) < prototype(TYPO3.Neos:Content) {
-     templatePath = 'resource://canope92.cinema/Private/Templates/TypoScriptObjects/Bouton.html'
-     lien = ${q(node).property('lien')}
-     texte = ${q(node).property('texte')}
-}

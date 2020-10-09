@@ -1,5 +1,0 @@
-prototype(canope92.cinema:VignetteFilm) < prototype(TYPO3.Neos:Content) {
-        templatePath = 'resource://canope92.cinema/Private/Templates/TypoScriptObjects/VignetteFilm.html'
-        attributes.class = 'responsive-video'
-        text = ${q(node).property('text')}
-}

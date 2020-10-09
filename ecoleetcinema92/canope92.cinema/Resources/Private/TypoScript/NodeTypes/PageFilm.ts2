@@ -1,4 +1,0 @@
-prototype(canope92.cinema:PageFilm) < prototype(TYPO3.Neos:Page) {
-        body.templatePath = 'resource://canope92.cinema/Private/Templates/TypoScriptObjects/PageFilm.html'
-        attributes.class = 'responsive-page'
-}
